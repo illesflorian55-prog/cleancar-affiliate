@@ -6,7 +6,7 @@ import asyncio
 import cloudscraper
 from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
-from stealth import stealth_async
+from playwright_stealth import stealth_async
 from history_manager import update_history
 
 CONFIG_FILE = 'config.json'
