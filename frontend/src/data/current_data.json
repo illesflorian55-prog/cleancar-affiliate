@@ -1,1 +1,76 @@
-{}
+{
+  "karcher-se-4001": {
+    "name": "Kärcher SE 4001 Takarítógép",
+    "price": 64990,
+    "url": "https://www.alza.hu/karcher-se-4001-d5588371.htm",
+    "image": "https://m.media-amazon.com/images/I/71u+f+5E28L._AC_SL1500_.jpg",
+    "shop": "Alza",
+    "all_time_low": true,
+    "price_history": [
+      {"date": "2026-04-26", "price": 69990},
+      {"date": "2026-05-10", "price": 67990},
+      {"date": "2026-05-26", "price": 64990}
+    ],
+    "description": "<p>A <strong>Kärcher SE 4001</strong> kárpittisztító gép a mélytisztítás mestere. Használatával a szálak mélyéig hatoló tisztaságot érhetsz el a szőnyegeken, kárpitokon, matracokon és természetesen az <strong>autóüléseken</strong> is.</p><p>A gép a tisztítószeres vizet mélyen a textíliába permetezi, majd a feloldott szennyeződéssel együtt azonnal vissza is szívja. Ez garantálja a higiénikus tisztaságot és a gyors száradást, ami elengedhetetlen egy otthoni autókozmetikánál. Kiemelkedő, nagy méretű, levehető tiszta víz tartállyal rendelkezik (4 liter), amely ütésálló és átlátszó, így folyamatosan nyomon követhető a folyadék szintje.</p>",
+    "pros": [
+      "Extrém erős szívóteljesítmény",
+      "Könnyen levehető és tölthető víztartály",
+      "Kiváló autókárpitok és szőnyegek mélytisztítására",
+      "Gyors száradási idő a visszaszívás miatt"
+    ],
+    "cons": [
+      "Viszonylag hangos működés (73 dB)",
+      "Nagy helyet foglal tároláskor",
+      "Az alapcsomag nem tartalmaz minden apró autós fejet"
+    ]
+  },
+  "parkside-pws-20": {
+    "name": "Parkside PWS 20 B2 Nedves-száraz porszívó",
+    "price": 24990,
+    "url": "https://www.emag.hu/parkside-pws-20",
+    "image": "https://m.media-amazon.com/images/I/61Nl-HhHjXL._AC_SL1200_.jpg",
+    "shop": "eMAG",
+    "all_time_low": false,
+    "price_history": [
+      {"date": "2026-04-26", "price": 22990},
+      {"date": "2026-05-10", "price": 24990},
+      {"date": "2026-05-26", "price": 24990}
+    ],
+    "description": "<p>A <strong>Parkside PWS 20 B2</strong> egy kiváló ár-érték arányú, multifunkcionális nedves és száraz porszívó. Ha egy megbízható igáslovat keresel a garázsba, ami nem ijed meg az autó kitakarításától vagy a kiömlött folyadékok felszívásától, akkor ez a modell neked lett kitalálva.</p><p>Robusztus 20 literes rozsdamentes acél tartállyal és fújó funkcióval is rendelkezik, ami hasznos lehet a nehezen elérhető rések kifújásakor. Nem igazi mosó-porszívó (nem permetez vizet), de a nedves szennyeződések és a víz felszívására tökéletesen alkalmas.</p>",
+    "pros": [
+      "Kiemelkedő ár-érték arány",
+      "Rozsdamentes acél 20L-es tartály",
+      "Nedves és száraz porszívózás egyben",
+      "Fújó funkció is be van építve"
+    ],
+    "cons": [
+      "Rövid, 4 méteres hálózati kábel",
+      "Nem permetező/kárpittisztító gép",
+      "A műanyag csövek kissé merevek"
+    ]
+  },
+  "bosch-advanced-vac-20": {
+    "name": "Bosch AdvancedVac 20 Ipari Porszívó",
+    "price": 54990,
+    "url": "https://www.alza.hu/bosch-advancedvac-20",
+    "image": "https://m.media-amazon.com/images/I/71R2o5A362L._AC_SL1500_.jpg",
+    "shop": "Alza",
+    "all_time_low": true,
+    "price_history": [
+      {"date": "2026-04-26", "price": 58990},
+      {"date": "2026-05-10", "price": 54990},
+      {"date": "2026-05-26", "price": 54990}
+    ],
+    "description": "<p>A <strong>Bosch AdvancedVac 20</strong> az otthoni barkácsolók és az autóápolás szerelmeseinek csúcsmodellje. Képes kezelni a durva szennyeződéseket, a finom port és a folyadékokat is. Beépített dugaljjal rendelkezik, így szerszámgépeket is ráköthetsz.</p><p>A porszívó antisztatikus tömlővel érkezik, ami minimalizálja az elektromos feltöltődést porszívózás közben. A szívóerő szabályozható, az univerzális adapternek köszönhetően pedig szinte bármilyen autós fejjel használható.</p>",
+    "pros": [
+      "Beépített hálózati csatlakozó szerszámokhoz",
+      "Antisztatikus tömlő",
+      "Kiváló anyagminőség és tartósság",
+      "Nagyon erős, 1200W-os motor"
+    ],
+    "cons": [
+      "Drágább a belépő szintű modelleknél",
+      "Kicsit nehéz (7.6 kg)"
+    ]
+  }
+}
