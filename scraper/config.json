@@ -1,0 +1,23 @@
+{
+  "shops": [
+    {
+      "name": "Alza",
+      "urls": [
+        "https://www.alza.hu/nedves-es-szaraz-porszivok/18855427.htm",
+        "https://www.alza.hu/karpittisztito-gepek/18855431.htm"
+      ]
+    },
+    {
+      "name": "eMAG",
+      "urls": [
+        "https://www.emag.hu/karpittisztito-gepek/c",
+        "https://www.emag.hu/nedves-es-szaraz-porszivok/c"
+      ]
+    }
+  ],
+  "brands": [
+    "Kärcher",
+    "Bosch",
+    "Parkside"
+  ]
+}
