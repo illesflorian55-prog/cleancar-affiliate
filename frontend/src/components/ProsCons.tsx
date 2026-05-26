@@ -12,7 +12,7 @@ export function ProsCons({ pros, cons }: ProsConsProps) {
       <div className="bg-green-50/50 dark:bg-green-900/10 border border-green-200 dark:border-green-900 rounded-2xl p-6 shadow-sm">
         <h3 className="text-xl font-bold text-green-800 dark:text-green-400 mb-4 flex items-center gap-2">
           <CheckCircle2 className="w-6 h-6" />
-          Előnyök
+          Pros
         </h3>
         <ul className="space-y-3">
           {pros.map((pro, index) => (
@@ -27,7 +27,7 @@ export function ProsCons({ pros, cons }: ProsConsProps) {
       <div className="bg-red-50/50 dark:bg-red-900/10 border border-red-200 dark:border-red-900 rounded-2xl p-6 shadow-sm">
         <h3 className="text-xl font-bold text-red-800 dark:text-red-400 mb-4 flex items-center gap-2">
           <XCircle className="w-6 h-6" />
-          Hátrányok
+          Cons
         </h3>
         <ul className="space-y-3">
           {cons.map((con, index) => (
