@@ -25,9 +25,26 @@ export default function GuidesPage() {
         <h1 className="text-4xl font-black text-gray-900 dark:text-white mb-6">
           Guides & Tutorials
         </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-400 mb-12">
-          Awesome VPN guides are coming soon. Stay tuned!
-        </p>
+        <div className="grid md:grid-cols-2 gap-8 text-left">
+          <Link href="/guides/what-is-a-vpn-and-why-you-need-it" className="group block bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 dark:border-gray-800 transition-all duration-300">
+            <div className="h-48 overflow-hidden bg-gray-100 dark:bg-gray-800">
+              <img 
+                src="/images/guide-vpn-shield.png" 
+                alt="VPN Shield Security"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+            <div className="p-6">
+              <p className="text-sm font-bold text-indigo-600 mb-2">Beginner's Guide</p>
+              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-indigo-600 transition-colors">
+                What is a VPN and Why Do You Need One in 2026?
+              </h2>
+              <p className="text-gray-600 dark:text-gray-400 text-sm">
+                Everything you need to know about Virtual Private Networks. Learn how they protect your privacy and secure your connection.
+              </p>
+            </div>
+          </Link>
+        </div>
         
         <Link 
           href="/" 
