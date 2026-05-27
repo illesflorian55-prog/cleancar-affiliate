@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import currentData from '@/data/current_data.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://techshield-reviews.vercel.app'; // Or your custom domain
+  const baseUrl = 'https://thevpnshield.com'; // Or your custom domain
 
   const reviewUrls = Object.keys(currentData).map((slug) => ({
     url: `${baseUrl}/reviews/${slug}`,

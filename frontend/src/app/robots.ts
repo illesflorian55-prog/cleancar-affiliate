@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://techshield-reviews.vercel.app/sitemap.xml',
+    sitemap: 'https://thevpnshield.com/sitemap.xml',
   };
 }

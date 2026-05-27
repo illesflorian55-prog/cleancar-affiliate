@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: PageProps) {
   if (!product) return { title: 'Review Not Found' };
 
   return {
-    title: `${product.name} Review 2026 | TechShield Reviews`,
+    title: `${product.name} Review 2026 | The VPN Shield`,
     description: `Read our in-depth review of ${product.name}. See pros, cons, features, and get the best discount online.`,
   };
 }

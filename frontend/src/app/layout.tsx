@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TechShield Reviews - Top VPNs 2026",
+  title: "The VPN Shield - Top VPNs 2026",
   description: "Find the best VPNs for privacy, streaming, and security. Honest reviews and exclusive discounts.",
 };
 
