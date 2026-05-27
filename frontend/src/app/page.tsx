@@ -15,14 +15,13 @@ export default function Home() {
             The VPN Shield
           </h1>
           <nav className="hidden md:flex gap-6 font-semibold text-gray-600 dark:text-gray-300">
-            <a href="#" className="hover:text-indigo-600 transition-colors">Top VPNs</a>
-            <a href="#" className="hover:text-indigo-600 transition-colors">Antivirus</a>
-            <a href="#" className="hover:text-indigo-600 transition-colors">Guides</a>
+            <a href="/#vpn-list" className="hover:text-indigo-600 transition-colors">Top VPNs</a>
+            <a href="/guides" className="hover:text-indigo-600 transition-colors">Guides</a>
           </nav>
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main id="vpn-list" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-12 text-center md:text-left">
           <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4">
             Best VPN Services of 2026
