@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
+import { getAllGuides } from '@/lib/guides';
 
 export const metadata = {
   title: 'VPN Guides & Tips | The VPN Shield',
@@ -7,6 +8,8 @@ export const metadata = {
 };
 
 export default function GuidesPage() {
+  const guides = getAllGuides();
+
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 font-sans">
       <header className="bg-white dark:bg-gray-900 border-b border-gray-100 dark:border-gray-800 sticky top-0 z-50">
@@ -25,44 +28,27 @@ export default function GuidesPage() {
         <h1 className="text-4xl font-black text-gray-900 dark:text-white mb-6">
           Guides & Tutorials
         </h1>
-        <div className="grid md:grid-cols-2 gap-8 text-left">
-          <Link href="/guides/what-is-a-vpn-and-why-you-need-it" className="group block bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 dark:border-gray-800 transition-all duration-300 flex flex-col h-full">
-            <div className="h-48 overflow-hidden bg-gray-100 dark:bg-gray-800 shrink-0">
-              <img 
-                src="/images/guide-vpn-shield.png" 
-                alt="VPN Shield Security"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            <div className="p-6 flex-1 flex flex-col">
-              <p className="text-sm font-bold text-indigo-600 mb-2">Beginner's Guide</p>
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-indigo-600 transition-colors">
-                What is a VPN and Why Do You Need One in 2026?
-              </h2>
-              <p className="text-gray-600 dark:text-gray-400 text-sm mt-auto">
-                Everything you need to know about Virtual Private Networks. Learn how they protect your privacy and secure your connection.
-              </p>
-            </div>
-          </Link>
-
-          <Link href="/guides/how-to-choose-the-perfect-vpn" className="group block bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 dark:border-gray-800 transition-all duration-300 flex flex-col h-full">
-            <div className="h-48 overflow-hidden bg-gray-100 dark:bg-gray-800 shrink-0">
-              <img 
-                src="/images/guide-vpn-deep-dive.png" 
-                alt="VPN Technical Deep Dive"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-            </div>
-            <div className="p-6 flex-1 flex flex-col">
-              <p className="text-sm font-bold text-indigo-600 mb-2">Technical Deep Dive</p>
-              <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-indigo-600 transition-colors">
-                How to Choose the Perfect VPN: Privacy, Protocols, and Performance
-              </h2>
-              <p className="text-gray-600 dark:text-gray-400 text-sm mt-auto">
-                An advanced look under the hood. Understand encryption standards, WireGuard vs OpenVPN, and why RAM-only servers matter.
-              </p>
-            </div>
-          </Link>
+        <div className="grid md:grid-cols-2 gap-8 text-left mb-12">
+          {guides.map((guide) => (
+            <Link key={guide.slug} href={`/guides/${guide.slug}`} className="group block bg-white dark:bg-gray-900 rounded-3xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 dark:border-gray-800 transition-all duration-300 flex flex-col h-full">
+              <div className="h-48 overflow-hidden bg-gray-100 dark:bg-gray-800 shrink-0 relative">
+                <img 
+                  src={guide.image} 
+                  alt={guide.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              <div className="p-6 flex-1 flex flex-col">
+                <p className="text-sm font-bold text-indigo-600 mb-2">{guide.category}</p>
+                <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-indigo-600 transition-colors">
+                  {guide.title}
+                </h2>
+                <p className="text-gray-600 dark:text-gray-400 text-sm mt-auto">
+                  {guide.description}
+                </p>
+              </div>
+            </Link>
+          ))}
         </div>
         
         <Link 

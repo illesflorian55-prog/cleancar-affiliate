@@ -1,4 +1,5 @@
 import { ProductCard } from '@/components/ProductCard';
+import { VPNMatchmaker } from '@/components/VPNMatchmaker';
 import currentData from '@/data/current_data.json';
 
 export default function Home() {
@@ -29,6 +30,10 @@ export default function Home() {
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
             We tested and reviewed the top VPN providers to help you find the perfect balance of speed, privacy, and streaming capabilities.
           </p>
+        </div>
+
+        <div className="mb-20">
+          <VPNMatchmaker />
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
