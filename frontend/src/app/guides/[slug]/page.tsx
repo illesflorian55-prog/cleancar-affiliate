@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { notFound } from 'next/navigation';
 import Markdown from 'react-markdown';
+import Script from 'next/script';
 import { CTAButton } from '@/components/CTAButton';
 import { getGuideBySlug, getGuideSlugs } from '@/lib/guides';
 
@@ -97,6 +98,52 @@ export default async function GuidePage({ params }: PageProps) {
           <p>© 2026 The VPN Shield. All rights reserved.</p>
         </div>
       </footer>
+      
+      {/* Dynamic JSON-LD SEO Schema */}
+      <Script id="json-ld-article" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: guide.title,
+        description: guide.description,
+        image: `https://thevpnshield.com${guide.image}`,
+        author: {
+          '@type': 'Organization',
+          name: guide.author,
+          url: 'https://thevpnshield.com/'
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'The VPN Shield',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://thevpnshield.com/logo.png'
+          }
+        },
+        datePublished: guide.date,
+        dateModified: guide.date
+      })}} />
+      <Script id="json-ld-faq" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: [
+          {
+            '@type': 'Question',
+            name: 'Is using a VPN completely legal?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'Yes, using a VPN is perfectly legal in almost all countries. They are essential tools for digital privacy and security used by millions of individuals and businesses daily.'
+            }
+          },
+          {
+            '@type': 'Question',
+            name: 'Do free VPNs actually work?',
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: 'While free VPNs exist, they often come with severe limitations like slow speeds, data caps, and dangerous privacy practices such as logging and selling your browsing data.'
+            }
+          }
+        ]
+      })}} />
     </div>
   );
 }

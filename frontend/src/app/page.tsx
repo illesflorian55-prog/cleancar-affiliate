@@ -1,5 +1,6 @@
 import { ProductCard } from '@/components/ProductCard';
 import { VPNMatchmaker } from '@/components/VPNMatchmaker';
+import { ComparisonMatrix } from '@/components/ComparisonMatrix';
 import currentData from '@/data/current_data.json';
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
           <VPNMatchmaker />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-20">
           {products.map((product) => (
             <ProductCard
               key={product.id}
@@ -50,6 +51,8 @@ export default function Home() {
             />
           ))}
         </div>
+
+        <ComparisonMatrix />
       </main>
       
       <footer className="bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800 mt-20 py-12">
