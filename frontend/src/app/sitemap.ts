@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
-import { getGuideSlugs } from '@/lib/guides';
+import { getAllGuides } from '@/lib/guides';
 import currentData from '@/data/current_data.json';
+
+export const revalidate = 3600;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://thevpnshield.com';
@@ -22,10 +24,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Dynamic Guide Routes
-  const slugs = getGuideSlugs();
-  const guideRoutes = slugs.map((slug) => ({
-    url: `${baseUrl}/guides/${slug.replace(/\.md$/, '')}`,
-    lastModified: new Date(),
+  const allGuides = getAllGuides();
+  const guideRoutes = allGuides.map((guide) => ({
+    url: `${baseUrl}/guides/${guide.slug}`,
+    lastModified: new Date(guide.date),
     changeFrequency: 'weekly' as const,
     priority: 0.7,
   }));

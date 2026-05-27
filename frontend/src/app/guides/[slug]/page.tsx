@@ -11,6 +11,8 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
+export const revalidate = 3600; // Rebuild every hour to check for newly published articles
+
 export async function generateStaticParams() {
   const slugs = getGuideSlugs();
   return slugs.map((slug) => ({

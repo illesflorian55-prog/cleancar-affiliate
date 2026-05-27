@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { getAllGuides } from '@/lib/guides';
 
+export const revalidate = 3600;
+
 export const metadata = {
   title: 'VPN Guides & Tips | The VPN Shield',
   description: 'Learn how to use VPNs, protect your privacy online, and get the most out of your subscriptions.',

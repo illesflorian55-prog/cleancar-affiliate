@@ -33,6 +33,11 @@ export function getGuideBySlug(slug: string): GuideData | null {
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
 
+  // In production, block access to future-dated articles
+  if (process.env.NODE_ENV === 'production' && new Date(data.date) > new Date()) {
+    return null;
+  }
+
   return {
     slug: realSlug,
     title: data.title,
