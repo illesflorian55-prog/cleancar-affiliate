@@ -3,7 +3,7 @@ title: "The Trojan Horse in Your Living Room: Securing Your Smart Home with a Ro
 description: "Your smart TV, fridge, and thermostat are massive security liabilities. Learn why IoT devices are highly vulnerable to hacking and how installing a VPN on your router protects your entire home network."
 date: "2026-05-28"
 author: "The VPN Shield Team"
-image: "/images/guide-vpn-shield.png"
+image: "/images/smart-home-router-vpn.png"
 category: "Security"
 ---
 

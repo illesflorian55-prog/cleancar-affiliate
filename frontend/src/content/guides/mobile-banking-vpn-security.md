@@ -3,7 +3,7 @@ title: "The Digital Pickpocket: Securing Your Finances While Traveling"
 description: "Managing money on the road is a high-wire act. Learn how hackers target your mobile banking apps and why a VPN is your ultimate financial bodyguard abroad."
 date: "2026-05-28"
 author: "The VPN Shield Team"
-image: "/images/guide-vpn-shield.png"
+image: "/images/mobile-banking-vpn-security.png"
 category: "Security"
 ---
 
