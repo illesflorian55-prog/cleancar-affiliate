@@ -34,12 +34,17 @@ export default function RootLayout({
         <main className="flex-grow">
           {children}
         </main>
-        <footer className="bg-slate-900 border-t border-slate-800 py-8 mt-12 text-center text-sm text-slate-500">
-          <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
-            <p>&copy; {new Date().getFullYear()} The VPN Shield. All rights reserved.</p>
-            <div className="flex space-x-6">
-              <a href="/guides" className="hover:text-blue-400 transition-colors">Guides & Tutorials</a>
-              <a href="/unblock" className="hover:text-purple-400 transition-colors">Global Unblocking Directory</a>
+        <footer className="bg-slate-900 border-t border-slate-800 py-12 mt-12 text-center text-sm text-slate-500">
+          <div className="max-w-4xl mx-auto px-4 flex flex-col items-center space-y-6">
+            <div className="flex space-x-8">
+              <a href="/guides" className="hover:text-blue-400 transition-colors font-medium">Guides & Tutorials</a>
+              <a href="/unblock" className="hover:text-purple-400 transition-colors font-medium">Global Unblocking Directory</a>
+            </div>
+            <div className="space-y-2">
+              <p>&copy; {new Date().getFullYear()} The VPN Shield. All rights reserved.</p>
+              <p className="text-xs text-slate-600">
+                Some links on this site are affiliate links. We may earn a commission if you purchase through them, at no extra cost to you.
+              </p>
             </div>
           </div>
         </footer>

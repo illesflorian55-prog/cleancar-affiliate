@@ -54,13 +54,6 @@ export default function Home() {
 
         <ComparisonMatrix />
       </main>
-      
-      <footer className="bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800 mt-20 py-12">
-        <div className="max-w-7xl mx-auto px-4 text-center text-gray-500">
-          <p>© 2026 The VPN Shield. All rights reserved.</p>
-          <p className="mt-2 text-sm">Some links on this site are affiliate links. We may earn a commission if you purchase through them, at no extra cost to you.</p>
-        </div>
-      </footer>
     </div>
   );
 }
