@@ -72,7 +72,7 @@ export default function IPCheckerPage() {
             <div className="space-y-6">
               <div>
                 <p className="text-sm text-slate-500 font-semibold mb-1 flex items-center"><Activity className="w-4 h-4 mr-2"/> Public IP Address</p>
-                <p className={`text-2xl font-mono font-bold ${scanning ? 'blur-sm text-slate-600' : 'text-red-400'}`}>
+                <p className={`text-xl sm:text-2xl font-mono font-bold break-all ${scanning ? 'blur-sm text-slate-600' : 'text-red-400'}`}>
                   {loading ? '...' : data?.ip}
                 </p>
               </div>
