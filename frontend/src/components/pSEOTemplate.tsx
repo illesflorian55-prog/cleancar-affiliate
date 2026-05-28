@@ -1,8 +1,7 @@
 import React from 'react';
 import { Shield, Globe, Zap, Lock } from 'lucide-react';
 import Link from 'next/link';
-import { VPNMatrix } from './VPNMatrix';
-import { getVPNData } from '@/lib/vpnData';
+import { ComparisonMatrix } from '@/components/ComparisonMatrix';
 
 interface PSEOTemplateProps {
   serviceName: string;
@@ -11,8 +10,6 @@ interface PSEOTemplateProps {
 }
 
 export function PSEOTemplate({ serviceName, countryName, type }: PSEOTemplateProps) {
-  const vpnData = getVPNData();
-
   const getActionWord = () => {
     switch (type) {
       case 'sports': return 'Watch';
@@ -65,8 +62,8 @@ export function PSEOTemplate({ serviceName, countryName, type }: PSEOTemplatePro
           </p>
         </div>
         
-        {/* We reuse the VPNMatrix component here for high conversion! */}
-        <VPNMatrix data={vpnData} />
+        {/* We reuse the ComparisonMatrix component here for high conversion! */}
+        <ComparisonMatrix />
       </div>
 
       {/* How to use section */}
