@@ -9,7 +9,7 @@ interface Params {
 }
 
 interface PageProps {
-  params: Params;
+  params: Promise<Params>;
 }
 
 // Generate static paths at build time (1000+ pages)
@@ -29,9 +29,10 @@ export function generateStaticParams(): Params[] {
 }
 
 // Dynamic Meta tags for SEO
-export function generateMetadata({ params }: PageProps) {
-  const service = pseoData.services.find(s => s.id === params.service);
-  const country = pseoData.countries.find(c => c.id === params.country);
+export async function generateMetadata({ params }: PageProps) {
+  const resolvedParams = await params;
+  const service = pseoData.services.find(s => s.id === resolvedParams.service);
+  const country = pseoData.countries.find(c => c.id === resolvedParams.country);
 
   if (!service || !country) {
     return { title: 'Not Found' };
@@ -45,9 +46,10 @@ export function generateMetadata({ params }: PageProps) {
   };
 }
 
-export default function PSEOPage({ params }: PageProps) {
-  const service = pseoData.services.find(s => s.id === params.service);
-  const country = pseoData.countries.find(c => c.id === params.country);
+export default async function PSEOPage({ params }: PageProps) {
+  const resolvedParams = await params;
+  const service = pseoData.services.find(s => s.id === resolvedParams.service);
+  const country = pseoData.countries.find(c => c.id === resolvedParams.country);
 
   if (!service || !country) {
     notFound();
