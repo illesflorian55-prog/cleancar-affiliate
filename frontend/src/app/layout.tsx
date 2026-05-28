@@ -39,6 +39,7 @@ export default function RootLayout({
             <div className="flex space-x-8">
               <a href="/guides" className="hover:text-blue-400 transition-colors font-medium">Guides & Tutorials</a>
               <a href="/unblock" className="hover:text-purple-400 transition-colors font-medium">Global Unblocking Directory</a>
+              <a href="/tools/ip-check" className="hover:text-red-400 transition-colors font-medium text-red-500">Free IP & Leak Test</a>
             </div>
             <div className="space-y-2">
               <p>&copy; {new Date().getFullYear()} The VPN Shield. All rights reserved.</p>

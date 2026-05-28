@@ -16,9 +16,13 @@ export default function Home() {
           <h1 className="text-2xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
             The VPN Shield
           </h1>
-          <nav className="hidden md:flex gap-6 font-semibold text-gray-600 dark:text-gray-300">
+          <nav className="hidden md:flex gap-6 font-semibold text-gray-600 dark:text-gray-300 items-center">
             <a href="/#vpn-list" className="hover:text-indigo-600 transition-colors">Top VPNs</a>
             <a href="/guides" className="hover:text-indigo-600 transition-colors">Guides</a>
+            <a href="/tools/ip-check" className="px-3 py-1 rounded-full bg-red-100 text-red-600 hover:bg-red-200 transition-colors text-sm flex items-center">
+              <span className="w-2 h-2 rounded-full bg-red-500 mr-2 animate-pulse"></span>
+              Free IP Scan
+            </a>
           </nav>
         </div>
       </header>
