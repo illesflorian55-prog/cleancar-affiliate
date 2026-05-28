@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllGuides } from '@/lib/guides';
 import currentData from '@/data/current_data.json';
+import pseoData from '@/data/pseo.json';
 
 export const revalidate = 3600;
 
@@ -40,5 +41,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  return [...routes, ...guideRoutes, ...reviewRoutes];
+  // Programmatic SEO Routes (pSEO)
+  const pseoRoutes: MetadataRoute.Sitemap = [];
+  pseoData.services.forEach(service => {
+    pseoData.countries.forEach(country => {
+      pseoRoutes.push({
+        url: `${baseUrl}/unblock/${service.id}/${country.id}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.6,
+      });
+    });
+  });
+
+  return [...routes, ...guideRoutes, ...reviewRoutes, ...pseoRoutes];
 }
