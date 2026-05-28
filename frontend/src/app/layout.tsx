@@ -34,7 +34,7 @@ export default function RootLayout({
         <main className="flex-grow">
           {children}
         </main>
-        <footer className="bg-slate-900 border-t border-slate-800 py-12 mt-12 text-center text-sm text-slate-500">
+        <footer className="bg-slate-900 border-t border-slate-800 py-12 text-center text-sm text-slate-500">
           <div className="max-w-4xl mx-auto px-4 flex flex-col items-center space-y-6">
             <div className="flex space-x-8">
               <a href="/guides" className="hover:text-blue-400 transition-colors font-medium">Guides & Tutorials</a>
