@@ -1,67 +1,67 @@
 ---
-title: "VPN Chrome és Firefox kiegészítők: Valódi védelem vagy csak illúzió?"
-description: "Felraktál egy ingyenes VPN bővítményt a böngésződbe, és azt hiszed, biztonságban vagy? Gyorsan ébredj fel: a legtöbb kiegészítő valójában nem is VPN!"
+title: "VPN Chrome Ă©s Firefox kiegĂ©szĂ­tĹ‘k: ValĂłdi vĂ©delem vagy csak illĂşziĂł?"
+description: "FelraktĂˇl egy ingyenes VPN bĹ‘vĂ­tmĂ©nyt a bĂ¶ngĂ©szĹ‘dbe, Ă©s azt hiszed, biztonsĂˇgban vagy? Gyorsan Ă©bredj fel: a legtĂ¶bb kiegĂ©szĂ­tĹ‘ valĂłjĂˇban nem is VPN!"
 date: "2026-08-01"
 author: "The VPN Shield Team"
 image: "/images/27-vpn-bongeszo-kiegeszitok-vs-alkalmazasok.png"
 category: "Security"
 ---
 
-# VPN Chrome és Firefox kiegészítők: Valódi védelem vagy csak illúzió?
+# VPN Chrome Ă©s Firefox kiegĂ©szĂ­tĹ‘k: ValĂłdi vĂ©delem vagy csak illĂşziĂł?
 
-Az interneten mindent gyorsan akarunk. Ha egy amerikai hírportál cikkét leblokkolják előttünk, nem akarunk negyed órát tölteni egy asztali szoftver letöltésével, telepítésével és beállításával. Ilyenkor a leggyorsabb reflex, hogy megnyitjuk a Google Chrome Webáruházat, beírjuk a keresőbe, hogy "Free VPN", és a legelső találatot egyetlen kattintással hozzáadjuk a böngészőnkhöz.
+Az interneten mindent gyorsan akarunk. Ha egy amerikai hĂ­rportĂˇl cikkĂ©t leblokkoljĂˇk elĹ‘ttĂĽnk, nem akarunk negyed ĂłrĂˇt tĂ¶lteni egy asztali szoftver letĂ¶ltĂ©sĂ©vel, telepĂ­tĂ©sĂ©vel Ă©s beĂˇllĂ­tĂˇsĂˇval. Ilyenkor a leggyorsabb reflex, hogy megnyitjuk a Google Chrome WebĂˇruhĂˇzat, beĂ­rjuk a keresĹ‘be, hogy "Free VPN", Ă©s a legelsĹ‘ talĂˇlatot egyetlen kattintĂˇssal hozzĂˇadjuk a bĂ¶ngĂ©szĹ‘nkhĂ¶z.
 
-Megjelenik egy kis pajzs ikon a sarokban, egy gombnyomással "Amerikába" kerülünk, az oldal betöltődik, mi pedig elégedetten konstatáljuk, hogy a gépünk mostantól fel van vértezve a hackerek ellen.
+Megjelenik egy kis pajzs ikon a sarokban, egy gombnyomĂˇssal "AmerikĂˇba" kerĂĽlĂĽnk, az oldal betĂ¶ltĹ‘dik, mi pedig elĂ©gedetten konstatĂˇljuk, hogy a gĂ©pĂĽnk mostantĂłl fel van vĂ©rtezve a hackerek ellen.
 
-Sajnos ez az egyik legnagyobb – és legveszélyesebb – illúzió a kiberbiztonság világában. Tízből kilenc felhasználó nincs tisztában azzal, hogy az a kis böngészős kiegészítő, amit épp feltelepített, **technikailag egyáltalán nem egy VPN.** De akkor mi az? És mikor sodrod magad végzetes veszélybe a használatukkal? Tegyük tisztába a fogalmakat!
+Sajnos ez az egyik legnagyobb â€“ Ă©s legveszĂ©lyesebb â€“ illĂşziĂł a kiberbiztonsĂˇg vilĂˇgĂˇban. TĂ­zbĹ‘l kilenc felhasznĂˇlĂł nincs tisztĂˇban azzal, hogy az a kis bĂ¶ngĂ©szĹ‘s kiegĂ©szĂ­tĹ‘, amit Ă©pp feltelepĂ­tett, **technikailag egyĂˇltalĂˇn nem egy VPN.** De akkor mi az? Ă‰s mikor sodrod magad vĂ©gzetes veszĂ©lybe a hasznĂˇlatukkal? TegyĂĽk tisztĂˇba a fogalmakat!
 
-## A fájdalmas igazság: A kiegészítők 90%-a csak egy Proxy
+## A fĂˇjdalmas igazsĂˇg: A kiegĂ©szĂ­tĹ‘k 90%-a csak egy Proxy
 
-Ahogy egy korábbi cikkünkben már részleteztük, a Virtuális Magánhálózat (VPN) és a Proxy szerver között szakadéknyi különbség van. A Chrome, a Firefox és az Edge áruházaiban (Web Store) található "VPN" bővítmények túlnyomó többsége (különösen az ingyenesek) a név ellenére csupán **Proxy szerverként** működnek.
+Ahogy egy korĂˇbbi cikkĂĽnkben mĂˇr rĂ©szleteztĂĽk, a VirtuĂˇlis MagĂˇnhĂˇlĂłzat (VPN) Ă©s a Proxy szerver kĂ¶zĂ¶tt szakadĂ©knyi kĂĽlĂ¶nbsĂ©g van. A Chrome, a Firefox Ă©s az Edge ĂˇruhĂˇzaiban (Web Store) talĂˇlhatĂł "VPN" bĹ‘vĂ­tmĂ©nyek tĂşlnyomĂł tĂ¶bbsĂ©ge (kĂĽlĂ¶nĂ¶sen az ingyenesek) a nĂ©v ellenĂ©re csupĂˇn **Proxy szerverkĂ©nt** mĹ±kĂ¶dnek.
 
 **Mit jelent ez a gyakorlatban?**
 
-1. **Nincs igazi titkosítás:** Ezek a bővítmények megváltoztatják az IP-címedet a böngészőn belül, így valóban be fognak engedni a geoblokkolt oldalakra. Azonban az adataidat *nem titkosítják* erős (AES-256) protokollokkal. Ha egy kávézó Wi-Fi-jén használod ezeket bankolásra, a hackerek a szomszéd asztaltól nevetve olvassák ki a jelszavaidat a "VPN"-ed ellenére is.
-2. **"Szivárgó" adatok (WebRTC Leak):** A böngészők modern funkciói (mint a WebRTC, ami a videó- és hanghívásokhoz kell a weben) gyakran kijátsszák a proxy bővítményeket, és hangtalanul kiszivárogtatják a valódi, otthoni IP-címedet az oldalaknak. Te azt hiszed, el vagy rejtve, de a weboldal pontosan látja a valós IP-det.
+1. **Nincs igazi titkosĂ­tĂˇs:** Ezek a bĹ‘vĂ­tmĂ©nyek megvĂˇltoztatjĂˇk az IP-cĂ­medet a bĂ¶ngĂ©szĹ‘n belĂĽl, Ă­gy valĂłban be fognak engedni a geoblokkolt oldalakra. Azonban az adataidat *nem titkosĂ­tjĂˇk* erĹ‘s (AES-256) protokollokkal. Ha egy kĂˇvĂ©zĂł Wi-Fi-jĂ©n hasznĂˇlod ezeket bankolĂˇsra, a hackerek a szomszĂ©d asztaltĂłl nevetve olvassĂˇk ki a jelszavaidat a "VPN"-ed ellenĂ©re is.
+2. **"SzivĂˇrgĂł" adatok (WebRTC Leak):** A bĂ¶ngĂ©szĹ‘k modern funkciĂłi (mint a WebRTC, ami a videĂł- Ă©s hanghĂ­vĂˇsokhoz kell a weben) gyakran kijĂˇtsszĂˇk a proxy bĹ‘vĂ­tmĂ©nyeket, Ă©s hangtalanul kiszivĂˇrogtatjĂˇk a valĂłdi, otthoni IP-cĂ­medet az oldalaknak. Te azt hiszed, el vagy rejtve, de a weboldal pontosan lĂˇtja a valĂłs IP-det.
 
-## Rendszerszintű vs. Böngészőszintű védelem
+## RendszerszintĹ± vs. BĂ¶ngĂ©szĹ‘szintĹ± vĂ©delem
 
-Tegyük fel, hogy letöltesz egy valódi, asztali VPN programot (mint a NordVPN szoftvere a Windows-ra vagy a Mac-re). Amikor ezt bekapcsolod, az úgynevezett **Rendszerszintű** (System-level) védelmet ad. A számítógéped minden egyes programja – a böngésző, a Spotify, a Torrent kliensed, a Windows frissítések, a háttérben futó felhő-szinkronizálók – belekerül a titkosított alagútba.
+TegyĂĽk fel, hogy letĂ¶ltesz egy valĂłdi, asztali VPN programot (mint a NordVPN szoftvere a Windows-ra vagy a Mac-re). Amikor ezt bekapcsolod, az Ăşgynevezett **RendszerszintĹ±** (System-level) vĂ©delmet ad. A szĂˇmĂ­tĂłgĂ©ped minden egyes programja â€“ a bĂ¶ngĂ©szĹ‘, a Spotify, a Torrent kliensed, a Windows frissĂ­tĂ©sek, a hĂˇttĂ©rben futĂł felhĹ‘-szinkronizĂˇlĂłk â€“ belekerĂĽl a titkosĂ­tott alagĂştba.
 
-Ezzel szemben a Chrome bővítmény csak **Böngészőszintű** védelmet nyújt.
-Képzeld el úgy, mintha a házadon csak a bejárati ajtót zárnád be (a böngésződet), de közben minden ablak, a hátsó ajtó és a garázs nyitva maradna.
+Ezzel szemben a Chrome bĹ‘vĂ­tmĂ©ny csak **BĂ¶ngĂ©szĹ‘szintĹ±** vĂ©delmet nyĂşjt.
+KĂ©pzeld el Ăşgy, mintha a hĂˇzadon csak a bejĂˇrati ajtĂłt zĂˇrnĂˇd be (a bĂ¶ngĂ©szĹ‘det), de kĂ¶zben minden ablak, a hĂˇtsĂł ajtĂł Ă©s a garĂˇzs nyitva maradna.
 
-Ha a háttérben fut a Torrent kliensed, vagy pittyen a Skype egy üzenettel, azok a programok **NEM** a Chrome-on keresztül kommunikálnak, tehát a böngészős VPN bővítmény nem védi őket! Ezek az alkalmazások a normál, titkosítatlan interneteddel lépnek fel a webre, felfedve a valódi IP-címedet az internetszolgáltató és a világ előtt.
+Ha a hĂˇttĂ©rben fut a Torrent kliensed, vagy pittyen a Skype egy ĂĽzenettel, azok a programok **NEM** a Chrome-on keresztĂĽl kommunikĂˇlnak, tehĂˇt a bĂ¶ngĂ©szĹ‘s VPN bĹ‘vĂ­tmĂ©ny nem vĂ©di Ĺ‘ket! Ezek az alkalmazĂˇsok a normĂˇl, titkosĂ­tatlan interneteddel lĂ©pnek fel a webre, felfedve a valĂłdi IP-cĂ­medet az internetszolgĂˇltatĂł Ă©s a vilĂˇg elĹ‘tt.
 
-## Mely bővítményekben bízhatsz meg?
+## Mely bĹ‘vĂ­tmĂ©nyekben bĂ­zhatsz meg?
 
-Ne érts félre: a böngésző-bővítményeknek van létjogosultsága, de csak akkor, ha tisztában vagy a korlátaikkal, és a megfelelő forrásból származnak.
+Ne Ă©rts fĂ©lre: a bĂ¶ngĂ©szĹ‘-bĹ‘vĂ­tmĂ©nyeknek van lĂ©tjogosultsĂˇga, de csak akkor, ha tisztĂˇban vagy a korlĂˇtaikkal, Ă©s a megfelelĹ‘ forrĂˇsbĂłl szĂˇrmaznak.
 
-**1. A rosszfiúk (Kerüld el őket!):**
-Minden olyan önálló, ismeretlen hátterű böngésző kiegészítő, aminek nincs egy valódi, fizetős VPN cég a hátterében (pl. "Hola VPN", "Touch VPN", "Free VPN for Chrome"). Ezek a cégek gyakran naplózzák és eladják a böngészési szokásaidat, reklámokat fecskendeznek a weboldalakra, vagy ami még rosszabb: a te sávszélességedet adják el másoknak (ahogy a Hola tette korábban).
+**1. A rosszfiĂşk (KerĂĽld el Ĺ‘ket!):**
+Minden olyan Ă¶nĂˇllĂł, ismeretlen hĂˇtterĹ± bĂ¶ngĂ©szĹ‘ kiegĂ©szĂ­tĹ‘, aminek nincs egy valĂłdi, fizetĹ‘s VPN cĂ©g a hĂˇtterĂ©ben (pl. "Hola VPN", "Touch VPN", "Free VPN for Chrome"). Ezek a cĂ©gek gyakran naplĂłzzĂˇk Ă©s eladjĂˇk a bĂ¶ngĂ©szĂ©si szokĂˇsaidat, reklĂˇmokat fecskendeznek a weboldalakra, vagy ami mĂ©g rosszabb: a te sĂˇvszĂ©lessĂ©gedet adjĂˇk el mĂˇsoknak (ahogy a Hola tette korĂˇbban).
 
-**2. A jófiúk (A prémium cégek bővítményei):**
-A nagy, megbízható VPN szolgáltatók (mint a Surfshark vagy az ExpressVPN) is kínálnak böngésző kiegészítőket. De van egy nagy különbség: 
-- Ezek a kiegészítők gyakran csak "Távirányítóként" működnek a gépedre telepített valódi VPN programhoz. (Ha a Chrome-ban rányomsz a bekapcsolásra, a gépeden elindul a rendszerszintű VPN).
-- Más esetekben ezek úgynevezett "HTTPS Proxik". Bár továbbra is csak a böngészőt védik, ezt már titkosított csatornán teszik, és beépített blokkolókkal (WebRTC szivárgás elleni védelemmel, reklámblokkolókkal) látják el őket.
+**2. A jĂłfiĂşk (A prĂ©mium cĂ©gek bĹ‘vĂ­tmĂ©nyei):**
+A nagy, megbĂ­zhatĂł VPN szolgĂˇltatĂłk (mint a Surfshark vagy az CyberGhost VPN) is kĂ­nĂˇlnak bĂ¶ngĂ©szĹ‘ kiegĂ©szĂ­tĹ‘ket. De van egy nagy kĂĽlĂ¶nbsĂ©g: 
+- Ezek a kiegĂ©szĂ­tĹ‘k gyakran csak "TĂˇvirĂˇnyĂ­tĂłkĂ©nt" mĹ±kĂ¶dnek a gĂ©pedre telepĂ­tett valĂłdi VPN programhoz. (Ha a Chrome-ban rĂˇnyomsz a bekapcsolĂˇsra, a gĂ©peden elindul a rendszerszintĹ± VPN).
+- MĂˇs esetekben ezek Ăşgynevezett "HTTPS Proxik". BĂˇr tovĂˇbbra is csak a bĂ¶ngĂ©szĹ‘t vĂ©dik, ezt mĂˇr titkosĂ­tott csatornĂˇn teszik, Ă©s beĂ©pĂ­tett blokkolĂłkkal (WebRTC szivĂˇrgĂˇs elleni vĂ©delemmel, reklĂˇmblokkolĂłkkal) lĂˇtjĂˇk el Ĺ‘ket.
 
-## Mikor hasznos a kiegészítő, és mikor kötelező az asztali App?
+## Mikor hasznos a kiegĂ©szĂ­tĹ‘, Ă©s mikor kĂ¶telezĹ‘ az asztali App?
 
-Hogy a dolgokat a helyükre tegyük, íme a döntési útmutató:
+Hogy a dolgokat a helyĂĽkre tegyĂĽk, Ă­me a dĂ¶ntĂ©si ĂştmutatĂł:
 
-**Használd csak a Böngésző Bővítményt (egy megbízható cégtől), ha:**
-- Csak egy gyors, 5 perces geoblokkolást akarsz feloldani (pl. megnézni egy külföldi hírportált).
-- A munkahelyeden vagy az iskolában vagy, ahol a rendszergazda letiltotta, hogy Asztali szoftvereket (.exe) telepíts a gépre, de a Chrome-hoz tudsz bővítményt adni. (Ez egy kiváló kiskapu az irodai tűzfalak megkerülésére!)
-- Egy gyenge, régi laptopod van, ami belassulna a teljes rendszerszintű titkosítástól, és neked csak arra kell a VPN, hogy böngészőből olvass.
+**HasznĂˇld csak a BĂ¶ngĂ©szĹ‘ BĹ‘vĂ­tmĂ©nyt (egy megbĂ­zhatĂł cĂ©gtĹ‘l), ha:**
+- Csak egy gyors, 5 perces geoblokkolĂˇst akarsz feloldani (pl. megnĂ©zni egy kĂĽlfĂ¶ldi hĂ­rportĂˇlt).
+- A munkahelyeden vagy az iskolĂˇban vagy, ahol a rendszergazda letiltotta, hogy Asztali szoftvereket (.exe) telepĂ­ts a gĂ©pre, de a Chrome-hoz tudsz bĹ‘vĂ­tmĂ©nyt adni. (Ez egy kivĂˇlĂł kiskapu az irodai tĹ±zfalak megkerĂĽlĂ©sĂ©re!)
+- Egy gyenge, rĂ©gi laptopod van, ami belassulna a teljes rendszerszintĹ± titkosĂ­tĂˇstĂłl, Ă©s neked csak arra kell a VPN, hogy bĂ¶ngĂ©szĹ‘bĹ‘l olvass.
 
-**KÖTELEZŐ a teljes Asztali Alkalmazást (Desktop App) használnod, ha:**
-- Nyilvános Wi-Fi hálózaton vagy, és bankolni szeretnél.
-- Torrentezel (P2P fájlmegosztás).
-- Bármilyen más szoftvert (játékot, levelezőklienst) használsz a böngészőn kívül.
-- Szükséged van a Kill Switch (vészleállító) funkcióra, ami a bővítményekben nem létezik.
+**KĂ–TELEZĹ a teljes Asztali AlkalmazĂˇst (Desktop App) hasznĂˇlnod, ha:**
+- NyilvĂˇnos Wi-Fi hĂˇlĂłzaton vagy, Ă©s bankolni szeretnĂ©l.
+- Torrentezel (P2P fĂˇjlmegosztĂˇs).
+- BĂˇrmilyen mĂˇs szoftvert (jĂˇtĂ©kot, levelezĹ‘klienst) hasznĂˇlsz a bĂ¶ngĂ©szĹ‘n kĂ­vĂĽl.
+- SzĂĽksĂ©ged van a Kill Switch (vĂ©szleĂˇllĂ­tĂł) funkciĂłra, ami a bĹ‘vĂ­tmĂ©nyekben nem lĂ©tezik.
 
-## Összegzés
+## Ă–sszegzĂ©s
 
-Egy Chrome vagy Firefox bővítmény letöltése kényelmes és gyors megoldás, de soha ne keverd össze a valódi kiberbiztonsággal. A legtöbb "Free VPN" bővítmény csupán egy dicsőített, adatszivárogtató proxy szerver, ami egy fals biztonságérzetbe ringat. 
+Egy Chrome vagy Firefox bĹ‘vĂ­tmĂ©ny letĂ¶ltĂ©se kĂ©nyelmes Ă©s gyors megoldĂˇs, de soha ne keverd Ă¶ssze a valĂłdi kiberbiztonsĂˇggal. A legtĂ¶bb "Free VPN" bĹ‘vĂ­tmĂ©ny csupĂˇn egy dicsĹ‘Ă­tett, adatszivĂˇrogtatĂł proxy szerver, ami egy fals biztonsĂˇgĂ©rzetbe ringat. 
 
-Ha igazán meg akarod védeni a digitális életedet, töltsd le az általad választott prémium VPN (ExpressVPN, NordVPN) teljes telepítőjét a számítógépedre. Ha a "nagytesó" fut a háttérben, a böngésződ is, és a gépeden futó összes többi program is a létező legnagyobb biztonságban lesz.
+Ha igazĂˇn meg akarod vĂ©deni a digitĂˇlis Ă©letedet, tĂ¶ltsd le az Ăˇltalad vĂˇlasztott prĂ©mium VPN (CyberGhost VPN, NordVPN) teljes telepĂ­tĹ‘jĂ©t a szĂˇmĂ­tĂłgĂ©pedre. Ha a "nagytesĂł" fut a hĂˇttĂ©rben, a bĂ¶ngĂ©szĹ‘d is, Ă©s a gĂ©peden futĂł Ă¶sszes tĂ¶bbi program is a lĂ©tezĹ‘ legnagyobb biztonsĂˇgban lesz.

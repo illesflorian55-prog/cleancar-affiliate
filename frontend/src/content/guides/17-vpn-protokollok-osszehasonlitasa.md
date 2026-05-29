@@ -1,87 +1,87 @@
 ---
-title: "Melyik VPN protokollt válaszd? OpenVPN, WireGuard vagy IKEv2?"
-description: "A VPN beállításaiban elvesztél a betűszavak között? Ismerd meg a VPN-ek 'motorjait', és tudd meg, mikor kell a WireGuard, és mikor az OpenVPN!"
+title: "Melyik VPN protokollt vĂˇlaszd? OpenVPN, WireGuard vagy IKEv2?"
+description: "A VPN beĂˇllĂ­tĂˇsaiban elvesztĂ©l a betĹ±szavak kĂ¶zĂ¶tt? Ismerd meg a VPN-ek 'motorjait', Ă©s tudd meg, mikor kell a WireGuard, Ă©s mikor az OpenVPN!"
 date: "2026-07-08"
 author: "The VPN Shield Team"
 image: "/images/17-vpn-protokollok-osszehasonlitasa.png"
 category: "Security"
 ---
 
-# Melyik VPN protokollt válaszd? OpenVPN, WireGuard vagy IKEv2?
+# Melyik VPN protokollt vĂˇlaszd? OpenVPN, WireGuard vagy IKEv2?
 
-Ha letöltesz egy minőségi VPN alkalmazást, az alapértelmezett beállítások általában remekül működnek a felhasználók 90%-ának. De ha kicsit is mélyebbre ásol a "Beállítások" (Settings) menüpontban, hamarosan egy sor ijesztő technikai kifejezéssel találod szembe magad: *OpenVPN (UDP/TCP)*, *WireGuard*, *IKEv2/IPsec*. 
+Ha letĂ¶ltesz egy minĹ‘sĂ©gi VPN alkalmazĂˇst, az alapĂ©rtelmezett beĂˇllĂ­tĂˇsok ĂˇltalĂˇban remekĂĽl mĹ±kĂ¶dnek a felhasznĂˇlĂłk 90%-Ăˇnak. De ha kicsit is mĂ©lyebbre Ăˇsol a "BeĂˇllĂ­tĂˇsok" (Settings) menĂĽpontban, hamarosan egy sor ijesztĹ‘ technikai kifejezĂ©ssel talĂˇlod szembe magad: *OpenVPN (UDP/TCP)*, *WireGuard*, *IKEv2/IPsec*. 
 
-Ha itt úgy érzed, mintha egy Boeing 747-es pilótafülkéjébe csöppentél volna, ne aggódj! Ezek a kifejezések az úgynevezett **VPN Protokollokat** jelölik.
+Ha itt Ăşgy Ă©rzed, mintha egy Boeing 747-es pilĂłtafĂĽlkĂ©jĂ©be csĂ¶ppentĂ©l volna, ne aggĂłdj! Ezek a kifejezĂ©sek az Ăşgynevezett **VPN Protokollokat** jelĂ¶lik.
 
-Hogy mi is az a VPN protokoll? Képzeld el a VPN-t egy autóként. A kasztni és az ülések (az applikáció designja) lehetnek bármilyen szépek, az igazi különbséget a motorháztető alatt megbúvó motor jelenti. A VPN protokoll ez a motor. Ő dönti el, hogy milyen gyorsan fogsz haladni (sebesség), milyen erős páncélozás van az autón (biztonság), és mennyire zökkenőmentesen veszi az akadályokat (stabilitás). 
+Hogy mi is az a VPN protokoll? KĂ©pzeld el a VPN-t egy autĂłkĂ©nt. A kasztni Ă©s az ĂĽlĂ©sek (az applikĂˇciĂł designja) lehetnek bĂˇrmilyen szĂ©pek, az igazi kĂĽlĂ¶nbsĂ©get a motorhĂˇztetĹ‘ alatt megbĂşvĂł motor jelenti. A VPN protokoll ez a motor. Ĺ dĂ¶nti el, hogy milyen gyorsan fogsz haladni (sebessĂ©g), milyen erĹ‘s pĂˇncĂ©lozĂˇs van az autĂłn (biztonsĂˇg), Ă©s mennyire zĂ¶kkenĹ‘mentesen veszi az akadĂˇlyokat (stabilitĂˇs). 
 
-Lássuk a három legfontosabb "motort", amivel ma egy modern VPN működik, és derítsük ki, melyiket mikor érdemes bekapcsolnod!
+LĂˇssuk a hĂˇrom legfontosabb "motort", amivel ma egy modern VPN mĹ±kĂ¶dik, Ă©s derĂ­tsĂĽk ki, melyiket mikor Ă©rdemes bekapcsolnod!
 
-## 1. OpenVPN: Az öreg, elnyűhetetlen tank
+## 1. OpenVPN: Az Ă¶reg, elnyĹ±hetetlen tank
 
-Az OpenVPN lassan két évtizede az iparág koronázatlan királya, és az "Arany Standard", amihez minden más protokollt mérnek.
+Az OpenVPN lassan kĂ©t Ă©vtizede az iparĂˇg koronĂˇzatlan kirĂˇlya, Ă©s az "Arany Standard", amihez minden mĂˇs protokollt mĂ©rnek.
 
-**Hogyan működik?**
-Ez egy nyílt forráskódú (open-source) rendszer. Ez azt jelenti, hogy a világ legkiválóbb kiberbiztonsági szakemberei 20 éven át vizsgálták a kódját, és az összes létező hibát kijavították benne. AES-256 bites titkosítással párosítva az OpenVPN egy áthatolhatatlan erőddé teszi az adataidat. Még olyan szigorú tűzfalakon is képes átverekedni magát, mint a kínai vagy orosz cenzúra rendszerei.
+**Hogyan mĹ±kĂ¶dik?**
+Ez egy nyĂ­lt forrĂˇskĂłdĂş (open-source) rendszer. Ez azt jelenti, hogy a vilĂˇg legkivĂˇlĂłbb kiberbiztonsĂˇgi szakemberei 20 Ă©ven Ăˇt vizsgĂˇltĂˇk a kĂłdjĂˇt, Ă©s az Ă¶sszes lĂ©tezĹ‘ hibĂˇt kijavĂ­tottĂˇk benne. AES-256 bites titkosĂ­tĂˇssal pĂˇrosĂ­tva az OpenVPN egy Ăˇthatolhatatlan erĹ‘ddĂ© teszi az adataidat. MĂ©g olyan szigorĂş tĹ±zfalakon is kĂ©pes Ăˇtverekedni magĂˇt, mint a kĂ­nai vagy orosz cenzĂşra rendszerei.
 
-**Két "sebességfokozata" van:**
-- **OpenVPN (UDP):** Gyorsabb, mert nem vár visszaigazolást az adatcsomagok megérkezéséről. Ideális streaminghez vagy játékhoz.
-- **OpenVPN (TCP):** Kicsit lassabb, de elképesztően stabil, mert minden egyes adatcsomagot leellenőriz. Ha egy tűzfal próbál blokkolni (pl. egyetemen vagy munkahelyen), a TCP-vel tudsz átjutni rajta.
+**KĂ©t "sebessĂ©gfokozata" van:**
+- **OpenVPN (UDP):** Gyorsabb, mert nem vĂˇr visszaigazolĂˇst az adatcsomagok megĂ©rkezĂ©sĂ©rĹ‘l. IdeĂˇlis streaminghez vagy jĂˇtĂ©khoz.
+- **OpenVPN (TCP):** Kicsit lassabb, de elkĂ©pesztĹ‘en stabil, mert minden egyes adatcsomagot leellenĹ‘riz. Ha egy tĹ±zfal prĂłbĂˇl blokkolni (pl. egyetemen vagy munkahelyen), a TCP-vel tudsz Ăˇtjutni rajta.
 
-**Előnyök:**
-- Megkérdőjelezhetetlen, többszörösen bizonyított biztonság.
-- Képes kikerülni a legdurvább cenzúrát is.
-- Szinte minden eszközön és routeren működik.
+**ElĹ‘nyĂ¶k:**
+- MegkĂ©rdĹ‘jelezhetetlen, tĂ¶bbszĂ¶rĂ¶sen bizonyĂ­tott biztonsĂˇg.
+- KĂ©pes kikerĂĽlni a legdurvĂˇbb cenzĂşrĂˇt is.
+- Szinte minden eszkĂ¶zĂ¶n Ă©s routeren mĹ±kĂ¶dik.
 
-**Hátrányok:**
-- Őrülten komplex kód (több mint 400 000 sor), ezért lassan indul el.
-- Mobiltelefonon nagyon falja az akkumulátort, és a sebessége elmarad a modern protokollokétól.
+**HĂˇtrĂˇnyok:**
+- ĹrĂĽlten komplex kĂłd (tĂ¶bb mint 400 000 sor), ezĂ©rt lassan indul el.
+- Mobiltelefonon nagyon falja az akkumulĂˇtort, Ă©s a sebessĂ©ge elmarad a modern protokollokĂ©tĂłl.
 
-## 2. WireGuard: A villámgyors sportautó (A Jövő)
+## 2. WireGuard: A villĂˇmgyors sportautĂł (A JĂ¶vĹ‘)
 
-Ha az OpenVPN egy masszív tank, akkor a WireGuard egy áramvonalas, modern Forma-1-es autó. Ezt a protokollt az elmúlt években fejlesztették ki azzal a céllal, hogy végre leváltsa az elavult OpenVPN-t. És a küldetést teljesítette.
+Ha az OpenVPN egy masszĂ­v tank, akkor a WireGuard egy Ăˇramvonalas, modern Forma-1-es autĂł. Ezt a protokollt az elmĂşlt Ă©vekben fejlesztettĂ©k ki azzal a cĂ©llal, hogy vĂ©gre levĂˇltsa az elavult OpenVPN-t. Ă‰s a kĂĽldetĂ©st teljesĂ­tette.
 
-**Hogyan működik?**
-Ahelyett, hogy egy 400 000 soros őskövületet optimalizálgattak volna, a fejlesztők tiszta lappal indultak. A WireGuard teljes kódja mindössze 4000 sorból áll! Ez a karcsúság elképesztő előnyöket hozott. 
+**Hogyan mĹ±kĂ¶dik?**
+Ahelyett, hogy egy 400 000 soros Ĺ‘skĂ¶vĂĽletet optimalizĂˇlgattak volna, a fejlesztĹ‘k tiszta lappal indultak. A WireGuard teljes kĂłdja mindĂ¶ssze 4000 sorbĂłl Ăˇll! Ez a karcsĂşsĂˇg elkĂ©pesztĹ‘ elĹ‘nyĂ¶ket hozott. 
 
-Először is, a WireGuard csatlakozási ideje szinte nulla. Ráböksz a gombra, és abban a tizedmásodpercben él a VPN (szemben az OpenVPN 5-10 másodperces "gondolkodásával"). Másodszor, a modern titkosítási eljárásoknak (ChaCha20) köszönhetően a WireGuard sebessége a plafont veri. A sebességtesztek során gyakran kétszer gyorsabb, mint az OpenVPN, szinte az eredeti netsebességedet kapod vissza.
+ElĹ‘szĂ¶r is, a WireGuard csatlakozĂˇsi ideje szinte nulla. RĂˇbĂ¶ksz a gombra, Ă©s abban a tizedmĂˇsodpercben Ă©l a VPN (szemben az OpenVPN 5-10 mĂˇsodperces "gondolkodĂˇsĂˇval"). MĂˇsodszor, a modern titkosĂ­tĂˇsi eljĂˇrĂˇsoknak (ChaCha20) kĂ¶szĂ¶nhetĹ‘en a WireGuard sebessĂ©ge a plafont veri. A sebessĂ©gtesztek sorĂˇn gyakran kĂ©tszer gyorsabb, mint az OpenVPN, szinte az eredeti netsebessĂ©gedet kapod vissza.
 
-**Előnyök:**
-- Extrém, verhetetlen sebesség. (Tökéletes 4K Netflixhez és torrentezéshez).
-- Szupergyors csatlakozási idő.
-- "Könnyű" kód, ami kíméli a telefonod processzorát és az akkumulátorát.
-- Sok VPN szolgáltató saját neve alatt fejlesztette tovább (pl. NordVPN -> NordLynx).
+**ElĹ‘nyĂ¶k:**
+- ExtrĂ©m, verhetetlen sebessĂ©g. (TĂ¶kĂ©letes 4K Netflixhez Ă©s torrentezĂ©shez).
+- Szupergyors csatlakozĂˇsi idĹ‘.
+- "KĂ¶nnyĹ±" kĂłd, ami kĂ­mĂ©li a telefonod processzorĂˇt Ă©s az akkumulĂˇtorĂˇt.
+- Sok VPN szolgĂˇltatĂł sajĂˇt neve alatt fejlesztette tovĂˇbb (pl. NordVPN -> NordLynx).
 
-**Hátrányok:**
-- Még viszonylag új (bár a legtöbb biztonsági aggályt már elhárították).
-- Önmagában nem a legjobb az elnyomó kormányok (pl. Kína) tűzfalainak kijátszására.
+**HĂˇtrĂˇnyok:**
+- MĂ©g viszonylag Ăşj (bĂˇr a legtĂ¶bb biztonsĂˇgi aggĂˇlyt mĂˇr elhĂˇrĂ­tottĂˇk).
+- Ă–nmagĂˇban nem a legjobb az elnyomĂł kormĂˇnyok (pl. KĂ­na) tĹ±zfalainak kijĂˇtszĂˇsĂˇra.
 
-## 3. IKEv2/IPsec: Az utazók legjobb barátja
+## 3. IKEv2/IPsec: Az utazĂłk legjobb barĂˇtja
 
-Az IKEv2-t (Internet Key Exchange version 2) a Microsoft és a Cisco fejlesztette ki közösen. Ha sokat utazol, és a telefonodon éled az életed, ez a protokoll lesz a kedvenced.
+Az IKEv2-t (Internet Key Exchange version 2) a Microsoft Ă©s a Cisco fejlesztette ki kĂ¶zĂ¶sen. Ha sokat utazol, Ă©s a telefonodon Ă©led az Ă©leted, ez a protokoll lesz a kedvenced.
 
-**Hogyan működik?**
-Az IKEv2 szuperképessége az úgynevezett "hálózatváltás" (network transition) zökkenőmentes kezelése. Képzeld el a következő szituációt: otthon elindulsz a Wi-Fi-vel. Kilépsz a házból, a telefonod átvált 5G-re. Beszállsz a metróba, ott a metró Wi-Fi-jére vált, majd a felszínen újra 5G. 
+**Hogyan mĹ±kĂ¶dik?**
+Az IKEv2 szuperkĂ©pessĂ©ge az Ăşgynevezett "hĂˇlĂłzatvĂˇltĂˇs" (network transition) zĂ¶kkenĹ‘mentes kezelĂ©se. KĂ©pzeld el a kĂ¶vetkezĹ‘ szituĂˇciĂłt: otthon elindulsz a Wi-Fi-vel. KilĂ©psz a hĂˇzbĂłl, a telefonod ĂˇtvĂˇlt 5G-re. BeszĂˇllsz a metrĂłba, ott a metrĂł Wi-Fi-jĂ©re vĂˇlt, majd a felszĂ­nen Ăşjra 5G. 
 
-Az OpenVPN minden ilyen váltásnál összeomlana, és másodpercekig tartana az újracsatlakozás (ami alatt az adataid szivárognának). Az IKEv2 azonban észrevétlenül, egy szempillantás alatt tartja életben a titkosított kapcsolatot hálózatváltáskor is. Ez teszi az okostelefonok abszolút sztárjává.
+Az OpenVPN minden ilyen vĂˇltĂˇsnĂˇl Ă¶sszeomlana, Ă©s mĂˇsodpercekig tartana az ĂşjracsatlakozĂˇs (ami alatt az adataid szivĂˇrognĂˇnak). Az IKEv2 azonban Ă©szrevĂ©tlenĂĽl, egy szempillantĂˇs alatt tartja Ă©letben a titkosĂ­tott kapcsolatot hĂˇlĂłzatvĂˇltĂˇskor is. Ez teszi az okostelefonok abszolĂşt sztĂˇrjĂˇvĂˇ.
 
-**Előnyök:**
-- Verhetetlen stabilitás mozgás közben (mobilokon kiváló).
-- Nagyon gyors, közel a WireGuard szintjéhez.
-- Gyárilag támogatják a legtöbb operációs rendszert (főleg az Apple termékei, az iOS és a macOS szeretik nagyon).
+**ElĹ‘nyĂ¶k:**
+- Verhetetlen stabilitĂˇs mozgĂˇs kĂ¶zben (mobilokon kivĂˇlĂł).
+- Nagyon gyors, kĂ¶zel a WireGuard szintjĂ©hez.
+- GyĂˇrilag tĂˇmogatjĂˇk a legtĂ¶bb operĂˇciĂłs rendszert (fĹ‘leg az Apple termĂ©kei, az iOS Ă©s a macOS szeretik nagyon).
 
-**Hátrányok:**
-- Mivel a Microsoft fejlesztésében is részt vett, sokak szerint (bár nincs bizonyítva) az NSA nyomást gyakorolhatott a háttérben (open-source puristák ezért kerülik).
-- Nem tud átjutni a kemény tűzfalakon.
+**HĂˇtrĂˇnyok:**
+- Mivel a Microsoft fejlesztĂ©sĂ©ben is rĂ©szt vett, sokak szerint (bĂˇr nincs bizonyĂ­tva) az NSA nyomĂˇst gyakorolhatott a hĂˇttĂ©rben (open-source puristĂˇk ezĂ©rt kerĂĽlik).
+- Nem tud Ăˇtjutni a kemĂ©ny tĹ±zfalakon.
 
-## Melyiket válaszd? (Az ökölszabály)
+## Melyiket vĂˇlaszd? (Az Ă¶kĂ¶lszabĂˇly)
 
-A VPN-ek általában felkínálnak egy "Automatikus" (Automatic) opciót, amely a hálózatod alapján kiválasztja a legjobbat. De ha te akarod irányítani a dolgokat, így válassz:
+A VPN-ek ĂˇltalĂˇban felkĂ­nĂˇlnak egy "Automatikus" (Automatic) opciĂłt, amely a hĂˇlĂłzatod alapjĂˇn kivĂˇlasztja a legjobbat. De ha te akarod irĂˇnyĂ­tani a dolgokat, Ă­gy vĂˇlassz:
 
-1. **Használj WireGuard-ot:** Ha otthon vagy (vagy stabil hálózaton), és a maximális sebesség a cél. Letöltéshez, 4K streaminghez, vagy gaminghez egyértelműen ez az első számú, modern választás.
-2. **Használj IKEv2-t:** Ha utazol a városban, és a mobilodon vagy a tableteden folyamatosan váltakoznak a 4G/5G és a kávézói Wi-Fi hálózatok.
-3. **Használj OpenVPN-t (TCP):** Ha egyetemi/céges blokkoláson akarsz átjutni, vagy ha egy erősen cenzúrázott országba (Kína, Oroszország) utazol, ahol a megbízhatóság fontosabb a sebességnél, és a rendkívül erős titkosítás a tét.
+1. **HasznĂˇlj WireGuard-ot:** Ha otthon vagy (vagy stabil hĂˇlĂłzaton), Ă©s a maximĂˇlis sebessĂ©g a cĂ©l. LetĂ¶ltĂ©shez, 4K streaminghez, vagy gaminghez egyĂ©rtelmĹ±en ez az elsĹ‘ szĂˇmĂş, modern vĂˇlasztĂˇs.
+2. **HasznĂˇlj IKEv2-t:** Ha utazol a vĂˇrosban, Ă©s a mobilodon vagy a tableteden folyamatosan vĂˇltakoznak a 4G/5G Ă©s a kĂˇvĂ©zĂłi Wi-Fi hĂˇlĂłzatok.
+3. **HasznĂˇlj OpenVPN-t (TCP):** Ha egyetemi/cĂ©ges blokkolĂˇson akarsz Ăˇtjutni, vagy ha egy erĹ‘sen cenzĂşrĂˇzott orszĂˇgba (KĂ­na, OroszorszĂˇg) utazol, ahol a megbĂ­zhatĂłsĂˇg fontosabb a sebessĂ©gnĂ©l, Ă©s a rendkĂ­vĂĽl erĹ‘s titkosĂ­tĂˇs a tĂ©t.
 
-## Összegzés
+## Ă–sszegzĂ©s
 
-Nem kell IT-szakembernek lenned ahhoz, hogy a legtöbbet hozd ki a VPN-edből. A protokollok világa sokat fejlődött, és a modern szolgáltatók ma már gondoskodnak arról, hogy a "motor" mindig zökkenőmentesen induljon. A jövő egyértelműen a WireGuardé, de a klasszikus OpenVPN megbízhatóságát még évekig nem fogja semmi felülmúlni a krízishelyzetekben. Válaszd a feladathoz illő "motort", és élvezd a biztonságos, kompromisszummentes böngészést!
+Nem kell IT-szakembernek lenned ahhoz, hogy a legtĂ¶bbet hozd ki a VPN-edbĹ‘l. A protokollok vilĂˇga sokat fejlĹ‘dĂ¶tt, Ă©s a modern szolgĂˇltatĂłk ma mĂˇr gondoskodnak arrĂłl, hogy a "motor" mindig zĂ¶kkenĹ‘mentesen induljon. A jĂ¶vĹ‘ egyĂ©rtelmĹ±en a WireGuardĂ©, de a klasszikus OpenVPN megbĂ­zhatĂłsĂˇgĂˇt mĂ©g Ă©vekig nem fogja semmi felĂĽlmĂşlni a krĂ­zishelyzetekben. VĂˇlaszd a feladathoz illĹ‘ "motort", Ă©s Ă©lvezd a biztonsĂˇgos, kompromisszummentes bĂ¶ngĂ©szĂ©st!

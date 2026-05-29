@@ -1,63 +1,63 @@
 ---
-title: "A Sötét Web (Dark Web) biztonságos elérése: Tor és VPN kombináció"
-description: "A Dark Web nem csak bűnözőknek való, de a veszélyek valósak. Ismerd meg az 'Onion over VPN' technológiát, amivel biztonságosan és névtelenségben merülhetsz alá a mélybe."
+title: "A SĂ¶tĂ©t Web (Dark Web) biztonsĂˇgos elĂ©rĂ©se: Tor Ă©s VPN kombinĂˇciĂł"
+description: "A Dark Web nem csak bĹ±nĂ¶zĹ‘knek valĂł, de a veszĂ©lyek valĂłsak. Ismerd meg az 'Onion over VPN' technolĂłgiĂˇt, amivel biztonsĂˇgosan Ă©s nĂ©vtelensĂ©gben merĂĽlhetsz alĂˇ a mĂ©lybe."
 date: "2026-07-25"
 author: "The VPN Shield Team"
 image: "/images/24-sotet-web-dark-web-elerese-vpn-tor.png"
 category: "Security"
 ---
 
-# A Sötét Web (Dark Web) biztonságos elérése: Tor és VPN kombináció
+# A SĂ¶tĂ©t Web (Dark Web) biztonsĂˇgos elĂ©rĂ©se: Tor Ă©s VPN kombinĂˇciĂł
 
-Amikor a "Sötét Web" (Dark Web) kifejezést halljuk, a legtöbbünknek azonnal az akciófilmek hacker jelenetei, a fegyverkereskedelem, a drogpiacok és az ellopott bankkártya adatok ugranak be. A média évek óta démonizálja ezt a területet, mintha maga a digitális pokol lenne. Bár kétségtelen, hogy az illegális piacterek virágoznak odalent, a valóság ennél sokkal árnyaltabb.
+Amikor a "SĂ¶tĂ©t Web" (Dark Web) kifejezĂ©st halljuk, a legtĂ¶bbĂĽnknek azonnal az akciĂłfilmek hacker jelenetei, a fegyverkereskedelem, a drogpiacok Ă©s az ellopott bankkĂˇrtya adatok ugranak be. A mĂ©dia Ă©vek Ăłta dĂ©monizĂˇlja ezt a terĂĽletet, mintha maga a digitĂˇlis pokol lenne. BĂˇr kĂ©tsĂ©gtelen, hogy az illegĂˇlis piacterek virĂˇgoznak odalent, a valĂłsĂˇg ennĂ©l sokkal Ăˇrnyaltabb.
 
-A Dark Web – ami csupán egy pici szelete az internetnek – a szólásszabadság, a cenzúra kikerülése és az anonim újságírás egyik legfontosabb mentsvára is egyben. (Tudtad például, hogy a BBC-nek, a New York Times-nak és a CIA-nek is van hivatalos Dark Web oldala?). 
+A Dark Web â€“ ami csupĂˇn egy pici szelete az internetnek â€“ a szĂłlĂˇsszabadsĂˇg, a cenzĂşra kikerĂĽlĂ©se Ă©s az anonim ĂşjsĂˇgĂ­rĂˇs egyik legfontosabb mentsvĂˇra is egyben. (Tudtad pĂ©ldĂˇul, hogy a BBC-nek, a New York Times-nak Ă©s a CIA-nek is van hivatalos Dark Web oldala?). 
 
-Ha azonban puszta kíváncsiságból vagy biztonsági okokból szeretnél lemerülni ebbe a világba, a hagyományos böngésződ (Chrome, Safari) teljesen hasznavehetetlen lesz. Egy speciális technológiára (a Tor-ra) van szükséged, de ami még fontosabb: **Soha ne lépj be a Dark Webre egy prémium VPN védelme nélkül!** Lássuk, hogyan kombinálhatod a két legtitkosabb technológiát a maximális védelemért.
+Ha azonban puszta kĂ­vĂˇncsisĂˇgbĂłl vagy biztonsĂˇgi okokbĂłl szeretnĂ©l lemerĂĽlni ebbe a vilĂˇgba, a hagyomĂˇnyos bĂ¶ngĂ©szĹ‘d (Chrome, Safari) teljesen hasznavehetetlen lesz. Egy speciĂˇlis technolĂłgiĂˇra (a Tor-ra) van szĂĽksĂ©ged, de ami mĂ©g fontosabb: **Soha ne lĂ©pj be a Dark Webre egy prĂ©mium VPN vĂ©delme nĂ©lkĂĽl!** LĂˇssuk, hogyan kombinĂˇlhatod a kĂ©t legtitkosabb technolĂłgiĂˇt a maximĂˇlis vĂ©delemĂ©rt.
 
 ## Mi is az a Tor (The Onion Router)?
 
-Azokat az oldalakat, amelyek a Dark Weben vannak (az URL-jük nem .com-ra, hanem `.onion` végződésre végződik), a normál internetről nem lehet megnyitni. Csak és kizárólag a **Tor Böngészővel** (Tor Browser) érhetők el.
+Azokat az oldalakat, amelyek a Dark Weben vannak (az URL-jĂĽk nem .com-ra, hanem `.onion` vĂ©gzĹ‘dĂ©sre vĂ©gzĹ‘dik), a normĂˇl internetrĹ‘l nem lehet megnyitni. Csak Ă©s kizĂˇrĂłlag a **Tor BĂ¶ngĂ©szĹ‘vel** (Tor Browser) Ă©rhetĹ‘k el.
 
-A Tor (The Onion Router) egy amerikai katonai fejlesztésként indult, mára azonban nyílt forráskódú projekt. Ahogy a neve is mutatja (Onion = Hagyma), a rendszer **hagymahéjszerűen, rétegenként** titkosítja a forgalmadat.
+A Tor (The Onion Router) egy amerikai katonai fejlesztĂ©skĂ©nt indult, mĂˇra azonban nyĂ­lt forrĂˇskĂłdĂş projekt. Ahogy a neve is mutatja (Onion = Hagyma), a rendszer **hagymahĂ©jszerĹ±en, rĂ©tegenkĂ©nt** titkosĂ­tja a forgalmadat.
 
-Amikor megnyitsz egy oldalt a Tor böngészőben, a kapcsolatod nem egyenesen a szerverhez fut. Helyette a világ különböző pontjain lévő, önkéntesek által üzemeltetett 3 különböző szerveren ("csomóponton") pattog végig:
-1. **Belépési csomópont (Entry Node):** Ez látja az IP-címedet, de nem tudja, mit akarsz megnézni (az adat még titkosítva van).
-2. **Középső csomópont (Middle Node):** Nem tudja se a te címedet, se a célpontot.
-3. **Kilépési csomópont (Exit Node):** Ez fejti vissza a legbelső réteget és küldi el a kérést a weboldalnak. Tudja, mit nézel, de nem tudja, KI vagy.
+Amikor megnyitsz egy oldalt a Tor bĂ¶ngĂ©szĹ‘ben, a kapcsolatod nem egyenesen a szerverhez fut. Helyette a vilĂˇg kĂĽlĂ¶nbĂ¶zĹ‘ pontjain lĂ©vĹ‘, Ă¶nkĂ©ntesek Ăˇltal ĂĽzemeltetett 3 kĂĽlĂ¶nbĂ¶zĹ‘ szerveren ("csomĂłponton") pattog vĂ©gig:
+1. **BelĂ©pĂ©si csomĂłpont (Entry Node):** Ez lĂˇtja az IP-cĂ­medet, de nem tudja, mit akarsz megnĂ©zni (az adat mĂ©g titkosĂ­tva van).
+2. **KĂ¶zĂ©psĹ‘ csomĂłpont (Middle Node):** Nem tudja se a te cĂ­medet, se a cĂ©lpontot.
+3. **KilĂ©pĂ©si csomĂłpont (Exit Node):** Ez fejti vissza a legbelsĹ‘ rĂ©teget Ă©s kĂĽldi el a kĂ©rĂ©st a weboldalnak. Tudja, mit nĂ©zel, de nem tudja, KI vagy.
 
-Zseniális, nem? Akkor miért kell még a VPN is?
+ZseniĂˇlis, nem? Akkor miĂ©rt kell mĂ©g a VPN is?
 
-## A Tor hálózat halálos gyenge pontjai
+## A Tor hĂˇlĂłzat halĂˇlos gyenge pontjai
 
-Bár a Tor kiváló eszköz, három hatalmas sebezhetőséggel rendelkezik, amik miatt önmagában használni (főleg elnyomó országokban) orosz rulettel ér fel.
+BĂˇr a Tor kivĂˇlĂł eszkĂ¶z, hĂˇrom hatalmas sebezhetĹ‘sĂ©ggel rendelkezik, amik miatt Ă¶nmagĂˇban hasznĂˇlni (fĹ‘leg elnyomĂł orszĂˇgokban) orosz rulettel Ă©r fel.
 
-1. **A Te internetszolgáltatód látja, hogy a Tor-t használod:** Amint elindítod a Tor böngészőt, a helyi internetszolgáltatód (és a kormány) pontosan látni fogja, hogy rácsatlakoztál a Tor hálózatra. Bár azt nem látják, *mit* csinálsz ott, pusztán a Tor használatának ténye azonnal gyanússá tesz téged a hatóságok szemében. Oroszországban vagy Kínában ezért kopogtatás is járhat.
-2. **A "Mérgezett" Belépési csomópontok:** A Tor hálózatot önkéntesek üzemeltetik. Ha egy "Entry Node"-ot (belépési pontot) történetesen egy hacker vagy a titkosszolgálat üzemeltet, akkor látni fogja a te eredeti, valódi IP-címedet!
-3. **Az Exit Node-ok lehallgatása:** Ha a forgalmad nem HTTPS (titkosított) oldalon végződik, a kilépési csomópontot üzemeltető (rosszindulatú) személy pontosan elolvashatja a jelszavaidat vagy a letöltött fájljaidat.
+1. **A Te internetszolgĂˇltatĂłd lĂˇtja, hogy a Tor-t hasznĂˇlod:** Amint elindĂ­tod a Tor bĂ¶ngĂ©szĹ‘t, a helyi internetszolgĂˇltatĂłd (Ă©s a kormĂˇny) pontosan lĂˇtni fogja, hogy rĂˇcsatlakoztĂˇl a Tor hĂˇlĂłzatra. BĂˇr azt nem lĂˇtjĂˇk, *mit* csinĂˇlsz ott, pusztĂˇn a Tor hasznĂˇlatĂˇnak tĂ©nye azonnal gyanĂşssĂˇ tesz tĂ©ged a hatĂłsĂˇgok szemĂ©ben. OroszorszĂˇgban vagy KĂ­nĂˇban ezĂ©rt kopogtatĂˇs is jĂˇrhat.
+2. **A "MĂ©rgezett" BelĂ©pĂ©si csomĂłpontok:** A Tor hĂˇlĂłzatot Ă¶nkĂ©ntesek ĂĽzemeltetik. Ha egy "Entry Node"-ot (belĂ©pĂ©si pontot) tĂ¶rtĂ©netesen egy hacker vagy a titkosszolgĂˇlat ĂĽzemeltet, akkor lĂˇtni fogja a te eredeti, valĂłdi IP-cĂ­medet!
+3. **Az Exit Node-ok lehallgatĂˇsa:** Ha a forgalmad nem HTTPS (titkosĂ­tott) oldalon vĂ©gzĹ‘dik, a kilĂ©pĂ©si csomĂłpontot ĂĽzemeltetĹ‘ (rosszindulatĂş) szemĂ©ly pontosan elolvashatja a jelszavaidat vagy a letĂ¶ltĂ¶tt fĂˇjljaidat.
 
-## A megoldás: Tor over VPN (Az arany standard)
+## A megoldĂˇs: Tor over VPN (Az arany standard)
 
-Ahhoz, hogy a Tor hálózat sebezhetőségeit kiküszöböld, be kell hoznod a képletbe a VPN-t (Virtuális Magánhálózatot). Ezt a módszert **Tor over VPN**-nek (vagy Onion over VPN) nevezik. 
+Ahhoz, hogy a Tor hĂˇlĂłzat sebezhetĹ‘sĂ©geit kikĂĽszĂ¶bĂ¶ld, be kell hoznod a kĂ©pletbe a VPN-t (VirtuĂˇlis MagĂˇnhĂˇlĂłzatot). Ezt a mĂłdszert **Tor over VPN**-nek (vagy Onion over VPN) nevezik. 
 
-**Így kell csinálnod a gyakorlatban:**
-1. A gépeden elindítod a prémium VPN-t (pl. NordVPN, ExpressVPN), és csatlakozol mondjuk egy svájci szerverre. (Az IP-címed mostantól svájci).
-2. CSAK EZUTÁN nyitod meg a Tor böngészőt.
+**ĂŤgy kell csinĂˇlnod a gyakorlatban:**
+1. A gĂ©peden elindĂ­tod a prĂ©mium VPN-t (pl. NordVPN, CyberGhost VPN), Ă©s csatlakozol mondjuk egy svĂˇjci szerverre. (Az IP-cĂ­med mostantĂłl svĂˇjci).
+2. CSAK EZUTĂN nyitod meg a Tor bĂ¶ngĂ©szĹ‘t.
 
-**Miért ez a legbiztonságosabb módszer a világon?**
-- **Vakság a szolgáltatódnál:** Mivel a VPN AES-256 bites titkosítást rak az összes adatodra, az otthoni internetszolgáltatód csupán annyit lát, hogy Svájccal kommunikálsz. **Soha nem fogják megtudni, hogy a Tor hálózatot használod.**
-- **Védelem a Tor hálózat ellen:** Amikor a forgalmad belép az első Tor csomópontra (Entry Node), az esetlegesen ott figyelő hacker (vagy hatóság) nem a te magyarországi IP-címedet fogja rögzíteni, hanem a VPN szerver (a svájci) IP-címét. Ha megpróbálnák visszakövetni, a VPN szigorú *No-Log* (naplózásmentes) irányelvébe ütköznek, ami egy áthatolhatatlan fal. A valódi személyazonosságod 100%-ig rejtve marad.
+**MiĂ©rt ez a legbiztonsĂˇgosabb mĂłdszer a vilĂˇgon?**
+- **VaksĂˇg a szolgĂˇltatĂłdnĂˇl:** Mivel a VPN AES-256 bites titkosĂ­tĂˇst rak az Ă¶sszes adatodra, az otthoni internetszolgĂˇltatĂłd csupĂˇn annyit lĂˇt, hogy SvĂˇjccal kommunikĂˇlsz. **Soha nem fogjĂˇk megtudni, hogy a Tor hĂˇlĂłzatot hasznĂˇlod.**
+- **VĂ©delem a Tor hĂˇlĂłzat ellen:** Amikor a forgalmad belĂ©p az elsĹ‘ Tor csomĂłpontra (Entry Node), az esetlegesen ott figyelĹ‘ hacker (vagy hatĂłsĂˇg) nem a te magyarorszĂˇgi IP-cĂ­medet fogja rĂ¶gzĂ­teni, hanem a VPN szerver (a svĂˇjci) IP-cĂ­mĂ©t. Ha megprĂłbĂˇlnĂˇk visszakĂ¶vetni, a VPN szigorĂş *No-Log* (naplĂłzĂˇsmentes) irĂˇnyelvĂ©be ĂĽtkĂ¶znek, ami egy Ăˇthatolhatatlan fal. A valĂłdi szemĂ©lyazonossĂˇgod 100%-ig rejtve marad.
 
-## 3 alapvető szabály a Dark Weben (Még VPN-nel is!)
+## 3 alapvetĹ‘ szabĂˇly a Dark Weben (MĂ©g VPN-nel is!)
 
-Ha felkészültél a "Tor over VPN" használatával, a technikai anonimitásod garantált. De a Dark Weben a legnagyobb veszélyt általában maga az emberi naivitás jelenti. Ha letérsz a kitaposott útról, tartsd be ezt a három vastörvényt:
+Ha felkĂ©szĂĽltĂ©l a "Tor over VPN" hasznĂˇlatĂˇval, a technikai anonimitĂˇsod garantĂˇlt. De a Dark Weben a legnagyobb veszĂ©lyt ĂˇltalĂˇban maga az emberi naivitĂˇs jelenti. Ha letĂ©rsz a kitaposott ĂştrĂłl, tartsd be ezt a hĂˇrom vastĂ¶rvĂ©nyt:
 
-1. **Soha ne tölts le semmit! (Még egy PDF-et sem!)** A Dark Weben található fájlok nagy része kártékony kóddal (malware, zsarolóvírus) van megfertőzve. Még egy ártatlannak tűnő Word dokumentum vagy egy PDF megnyitása is futtathat egy scriptet, ami visszafejti az IP-címedet, vagy zárolja a számítógépedet.
-2. **Ne használd a valódi nevedet vagy e-mail címedet!** Semmilyen körülmények között ne jelentkezz be a Dark Weben a normál Facebook, Gmail vagy bármilyen más személyes fiókodba. Ha bármilyen fórumban kommunikálsz, használj anonim, eldobható e-mail címeket (pl. ProtonMail .onion verziója), és soha ne ossz meg személyes adatokat!
-3. **Fizetés csak kriptovalutával:** A Dark Weben tilos hitelkártyát használni. Ha bármit vásárolnál, a kártyaadataid percek alatt egy orosz hacker fórumon landolnak. Csak teljesen anonimizált kriptovalutákat (főként Monero-t) használnak odalent az "okos" emberek.
+1. **Soha ne tĂ¶lts le semmit! (MĂ©g egy PDF-et sem!)** A Dark Weben talĂˇlhatĂł fĂˇjlok nagy rĂ©sze kĂˇrtĂ©kony kĂłddal (malware, zsarolĂłvĂ­rus) van megfertĹ‘zve. MĂ©g egy Ăˇrtatlannak tĹ±nĹ‘ Word dokumentum vagy egy PDF megnyitĂˇsa is futtathat egy scriptet, ami visszafejti az IP-cĂ­medet, vagy zĂˇrolja a szĂˇmĂ­tĂłgĂ©pedet.
+2. **Ne hasznĂˇld a valĂłdi nevedet vagy e-mail cĂ­medet!** Semmilyen kĂ¶rĂĽlmĂ©nyek kĂ¶zĂ¶tt ne jelentkezz be a Dark Weben a normĂˇl Facebook, Gmail vagy bĂˇrmilyen mĂˇs szemĂ©lyes fiĂłkodba. Ha bĂˇrmilyen fĂłrumban kommunikĂˇlsz, hasznĂˇlj anonim, eldobhatĂł e-mail cĂ­meket (pl. ProtonMail .onion verziĂłja), Ă©s soha ne ossz meg szemĂ©lyes adatokat!
+3. **FizetĂ©s csak kriptovalutĂˇval:** A Dark Weben tilos hitelkĂˇrtyĂˇt hasznĂˇlni. Ha bĂˇrmit vĂˇsĂˇrolnĂˇl, a kĂˇrtyaadataid percek alatt egy orosz hacker fĂłrumon landolnak. Csak teljesen anonimizĂˇlt kriptovalutĂˇkat (fĹ‘kĂ©nt Monero-t) hasznĂˇlnak odalent az "okos" emberek.
 
-## Összegzés
+## Ă–sszegzĂ©s
 
-A Dark Web nem egy vidámpark, de nem is egy misztikus, elérhetetlen világ. Pusztán az internet egy olyan szeglete, ahol a technológia garantálja a tökéletes anonimitást. De emlékezz: a Tor hálózat önmagában szivárogtathat, és felhívhatja rád a figyelmet. 
+A Dark Web nem egy vidĂˇmpark, de nem is egy misztikus, elĂ©rhetetlen vilĂˇg. PusztĂˇn az internet egy olyan szeglete, ahol a technolĂłgia garantĂˇlja a tĂ¶kĂ©letes anonimitĂˇst. De emlĂ©kezz: a Tor hĂˇlĂłzat Ă¶nmagĂˇban szivĂˇrogtathat, Ă©s felhĂ­vhatja rĂˇd a figyelmet. 
 
-A "Tor over VPN" módszer alkalmazása – vagyis egy auditált, naplózásmentes, Kill Switch funkcióval rendelkező VPN bekapcsolása a Tor megnyitása előtt – a kiberbiztonság jelenleg ismert legmagasabb foka. Ezzel a digitális dupla-páncélzattal biztosíthatod, hogy a mélyvízi kalandozásaid során a te digitális arcod mindig a homályban maradjon.
+A "Tor over VPN" mĂłdszer alkalmazĂˇsa â€“ vagyis egy auditĂˇlt, naplĂłzĂˇsmentes, Kill Switch funkciĂłval rendelkezĹ‘ VPN bekapcsolĂˇsa a Tor megnyitĂˇsa elĹ‘tt â€“ a kiberbiztonsĂˇg jelenleg ismert legmagasabb foka. Ezzel a digitĂˇlis dupla-pĂˇncĂ©lzattal biztosĂ­thatod, hogy a mĂ©lyvĂ­zi kalandozĂˇsaid sorĂˇn a te digitĂˇlis arcod mindig a homĂˇlyban maradjon.

@@ -12,7 +12,7 @@ type Question = {
     id: string;
     text: string;
     icon: React.ReactNode;
-    scores: { nordvpn: number; expressvpn: number; surfshark: number };
+    scores: { nordvpn: number; cyberghost: number; surfshark: number };
   }[];
 };
 
@@ -21,42 +21,42 @@ const questions: Question[] = [
     id: 'goal',
     question: "What's your primary reason for getting a VPN?",
     options: [
-      { id: 'streaming', text: 'Streaming & Unblocking', icon: <Tv className="w-6 h-6 mb-2" />, scores: { nordvpn: 1, expressvpn: 3, surfshark: 0 } },
-      { id: 'privacy', text: 'Maximum Security', icon: <Shield className="w-6 h-6 mb-2" />, scores: { nordvpn: 3, expressvpn: 1, surfshark: 0 } },
-      { id: 'value', text: 'Best Value for Money', icon: <Wallet className="w-6 h-6 mb-2" />, scores: { nordvpn: 0, expressvpn: 0, surfshark: 3 } },
+      { id: 'streaming', text: 'Streaming & Unblocking', icon: <Tv className="w-6 h-6 mb-2" />, scores: { nordvpn: 1, cyberghost: 3, surfshark: 0 } },
+      { id: 'privacy', text: 'Maximum Security', icon: <Shield className="w-6 h-6 mb-2" />, scores: { nordvpn: 3, cyberghost: 1, surfshark: 0 } },
+      { id: 'value', text: 'Best Value for Money', icon: <Wallet className="w-6 h-6 mb-2" />, scores: { nordvpn: 0, cyberghost: 0, surfshark: 3 } },
     ]
   },
   {
     id: 'devices',
     question: "How many devices do you need to protect?",
     options: [
-      { id: 'personal', text: 'Just mine (1-4)', icon: <Smartphone className="w-6 h-6 mb-2" />, scores: { nordvpn: 1, expressvpn: 1, surfshark: 0 } },
-      { id: 'family', text: 'Whole family (5+)', icon: <Users className="w-6 h-6 mb-2" />, scores: { nordvpn: 0, expressvpn: 0, surfshark: 4 } },
+      { id: 'personal', text: 'Just mine (1-4)', icon: <Smartphone className="w-6 h-6 mb-2" />, scores: { nordvpn: 1, cyberghost: 1, surfshark: 0 } },
+      { id: 'family', text: 'Whole family (5+)', icon: <Users className="w-6 h-6 mb-2" />, scores: { nordvpn: 0, cyberghost: 0, surfshark: 4 } },
     ]
   },
   {
     id: 'tech',
     question: "What's your technical experience level?",
     options: [
-      { id: 'beginner', text: 'Beginner (Keep it simple)', icon: <Zap className="w-6 h-6 mb-2" />, scores: { nordvpn: 1, expressvpn: 2, surfshark: 1 } },
-      { id: 'advanced', text: 'Advanced (I want settings)', icon: <Settings className="w-6 h-6 mb-2" />, scores: { nordvpn: 2, expressvpn: 0, surfshark: 1 } },
+      { id: 'beginner', text: 'Beginner (Keep it simple)', icon: <Zap className="w-6 h-6 mb-2" />, scores: { nordvpn: 1, cyberghost: 2, surfshark: 1 } },
+      { id: 'advanced', text: 'Advanced (I want settings)', icon: <Settings className="w-6 h-6 mb-2" />, scores: { nordvpn: 2, cyberghost: 0, surfshark: 1 } },
     ]
   }
 ];
 
 export function VPNMatchmaker() {
   const [currentStep, setCurrentStep] = useState(-1); // -1 is start screen
-  const [scores, setScores] = useState({ nordvpn: 0, expressvpn: 0, surfshark: 0 });
+  const [scores, setScores] = useState({ nordvpn: 0, cyberghost: 0, surfshark: 0 });
   const [isAnimating, setIsAnimating] = useState(false);
 
   const handleStart = () => {
     setCurrentStep(0);
   };
 
-  const handleAnswer = (optionScores: { nordvpn: number; expressvpn: number; surfshark: number }) => {
+  const handleAnswer = (optionScores: { nordvpn: number; cyberghost: number; surfshark: number }) => {
     setScores(prev => ({
       nordvpn: prev.nordvpn + optionScores.nordvpn,
-      expressvpn: prev.expressvpn + optionScores.expressvpn,
+      cyberghost: prev.cyberghost + optionScores.cyberghost,
       surfshark: prev.surfshark + optionScores.surfshark,
     }));
     
@@ -68,7 +68,7 @@ export function VPNMatchmaker() {
   };
 
   const resetQuiz = () => {
-    setScores({ nordvpn: 0, expressvpn: 0, surfshark: 0 });
+    setScores({ nordvpn: 0, cyberghost: 0, surfshark: 0 });
     setCurrentStep(-1);
   };
 

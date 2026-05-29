@@ -39,7 +39,7 @@ const matrixData = {
     torrenting: true,
     support: true,
   },
-  expressvpn: {
+  cyberghost: {
     price: '$6.67',
     servers: '3000+',
     countries: 105,
@@ -87,7 +87,7 @@ export function ComparisonMatrix() {
               <th className="p-6 bg-gray-50 dark:bg-gray-950 border-b border-gray-100 dark:border-gray-800 w-1/4">
                 <span className="sr-only">Features</span>
               </th>
-              {['nordvpn', 'expressvpn', 'surfshark'].map((key) => {
+              {['nordvpn', 'cyberghost', 'surfshark'].map((key) => {
                 const provider = (currentData as any)[key];
                 return (
                   <th key={key} className="p-6 text-center border-b border-gray-100 dark:border-gray-800 w-1/4">
@@ -121,7 +121,7 @@ export function ComparisonMatrix() {
                     </div>
                   )}
                 </td>
-                {['nordvpn', 'expressvpn', 'surfshark'].map((provider) => (
+                {['nordvpn', 'cyberghost', 'surfshark'].map((provider) => (
                   <td key={`${provider}-${feature.id}`} className="p-4 text-center border-b border-gray-100 dark:border-gray-800">
                     {renderValue((matrixData as any)[provider][feature.id], feature.type)}
                   </td>

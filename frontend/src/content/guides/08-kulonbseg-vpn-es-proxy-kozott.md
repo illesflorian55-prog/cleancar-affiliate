@@ -1,65 +1,65 @@
 ---
-title: "Mi a különbség a VPN és a Proxy között? (Melyiket mikor használd?)"
-description: "A VPN és a Proxy is elrejti az IP-címedet, de a hasonlóságok itt véget is érnek. Ismerd meg a két technológia közti kritikus különbséget, hogy ne sodord veszélybe az adataidat!"
+title: "Mi a kĂĽlĂ¶nbsĂ©g a VPN Ă©s a Proxy kĂ¶zĂ¶tt? (Melyiket mikor hasznĂˇld?)"
+description: "A VPN Ă©s a Proxy is elrejti az IP-cĂ­medet, de a hasonlĂłsĂˇgok itt vĂ©get is Ă©rnek. Ismerd meg a kĂ©t technolĂłgia kĂ¶zti kritikus kĂĽlĂ¶nbsĂ©get, hogy ne sodord veszĂ©lybe az adataidat!"
 date: "2026-06-17"
 author: "The VPN Shield Team"
 image: "/images/08-kulonbseg-vpn-es-proxy-kozott.png"
 category: "Security"
 ---
 
-# Mi a különbség a VPN és a Proxy között? (Melyiket mikor használd?)
+# Mi a kĂĽlĂ¶nbsĂ©g a VPN Ă©s a Proxy kĂ¶zĂ¶tt? (Melyiket mikor hasznĂˇld?)
 
-A kiberbiztonság világában könnyű elveszni a technikai betűszavak tengerében. Amikor valaki meg akarja kerülni a Netflix területi korlátozását, vagy el akarja rejteni a tevékenységét a munkahelyi IT-osztály elől, a fórumokon általában két varázsszót dobnak be neki válaszként: *"Használj VPN-t!"* vagy *"Állíts be egy Proxyt!"*
+A kiberbiztonsĂˇg vilĂˇgĂˇban kĂ¶nnyĹ± elveszni a technikai betĹ±szavak tengerĂ©ben. Amikor valaki meg akarja kerĂĽlni a Netflix terĂĽleti korlĂˇtozĂˇsĂˇt, vagy el akarja rejteni a tevĂ©kenysĂ©gĂ©t a munkahelyi IT-osztĂˇly elĹ‘l, a fĂłrumokon ĂˇltalĂˇban kĂ©t varĂˇzsszĂłt dobnak be neki vĂˇlaszkĂ©nt: *"HasznĂˇlj VPN-t!"* vagy *"ĂllĂ­ts be egy Proxyt!"*
 
-Mivel a felszínen mindkét eszköz nagyon hasonló dolgot csinál – elrejti az eredeti IP-címedet és azt a látszatot kelti, mintha egy másik országból böngésznél –, az emberek gyakran szinonimaként használják a két fogalmat. Ez azonban óriási, és esetenként végzetes hiba. 
+Mivel a felszĂ­nen mindkĂ©t eszkĂ¶z nagyon hasonlĂł dolgot csinĂˇl â€“ elrejti az eredeti IP-cĂ­medet Ă©s azt a lĂˇtszatot kelti, mintha egy mĂˇsik orszĂˇgbĂłl bĂ¶ngĂ©sznĂ©l â€“, az emberek gyakran szinonimakĂ©nt hasznĂˇljĂˇk a kĂ©t fogalmat. Ez azonban ĂłriĂˇsi, Ă©s esetenkĂ©nt vĂ©gzetes hiba. 
 
-A VPN és a Proxy között akkora a különbség a biztonság terén, mint egy papírmasé álarc és egy golyóálló kevlár mellény között. Nézzük meg, melyik mit tud pontosan, és mikor melyiket érdemes választanod!
+A VPN Ă©s a Proxy kĂ¶zĂ¶tt akkora a kĂĽlĂ¶nbsĂ©g a biztonsĂˇg terĂ©n, mint egy papĂ­rmasĂ© Ăˇlarc Ă©s egy golyĂłĂˇllĂł kevlĂˇr mellĂ©ny kĂ¶zĂ¶tt. NĂ©zzĂĽk meg, melyik mit tud pontosan, Ă©s mikor melyiket Ă©rdemes vĂˇlasztanod!
 
-## A Proxy szerver: A "Közvetítő"
+## A Proxy szerver: A "KĂ¶zvetĂ­tĹ‘"
 
-Képzeld el, hogy az iskolapadban ülsz, és egy levelet szeretnél eljuttatni a terem másik végében ülő lánynak. De nem akarod, hogy a tanár tudja, tőled származik az üzenet. Ezért megkéred a melletted ülő padtársadat (ő a Proxy), hogy adja tovább a levelet a nevedben. A lány megkapja a levelet, és azt hiszi, a padtársadtól jött. 
+KĂ©pzeld el, hogy az iskolapadban ĂĽlsz, Ă©s egy levelet szeretnĂ©l eljuttatni a terem mĂˇsik vĂ©gĂ©ben ĂĽlĹ‘ lĂˇnynak. De nem akarod, hogy a tanĂˇr tudja, tĹ‘led szĂˇrmazik az ĂĽzenet. EzĂ©rt megkĂ©red a melletted ĂĽlĹ‘ padtĂˇrsadat (Ĺ‘ a Proxy), hogy adja tovĂˇbb a levelet a nevedben. A lĂˇny megkapja a levelet, Ă©s azt hiszi, a padtĂˇrsadtĂłl jĂ¶tt. 
 
-Pontosan így működik a Proxy szerver. Úgy viselkedik, mint egy digitális közvetítő, egy "középső ember" közted és a meglátogatni kívánt weboldal között. 
+Pontosan Ă­gy mĹ±kĂ¶dik a Proxy szerver. Ăšgy viselkedik, mint egy digitĂˇlis kĂ¶zvetĂ­tĹ‘, egy "kĂ¶zĂ©psĹ‘ ember" kĂ¶zted Ă©s a meglĂˇtogatni kĂ­vĂˇnt weboldal kĂ¶zĂ¶tt. 
 
-Amikor Proxy-t használsz, a böngésződ nem egyenesen a weboldalnak küldi el a kérést, hanem a Proxy szervernek. A szerver a te címed helyett a saját IP-címét használva lekéri a weboldalt, majd az eredményt visszaküldi neked. 
+Amikor Proxy-t hasznĂˇlsz, a bĂ¶ngĂ©szĹ‘d nem egyenesen a weboldalnak kĂĽldi el a kĂ©rĂ©st, hanem a Proxy szervernek. A szerver a te cĂ­med helyett a sajĂˇt IP-cĂ­mĂ©t hasznĂˇlva lekĂ©ri a weboldalt, majd az eredmĂ©nyt visszakĂĽldi neked. 
 
 ### A Proxy gyenge pontjai
-- **Nincs titkosítás (Ez a legfontosabb!):** A Proxy *nem* titkosítja a forgalmadat. Visszatérve a hasonlathoz: a levél, amit a padtársaddal küldtél, nincs lezárva. Bárki, aki útközben ránéz (az internetszolgáltatód, a hacker a kávézóban, vagy maga a Proxy üzemeltetője), tisztán el tudja olvasni, mit írtál bele.
-- **Csak egy adott alkalmazásra hat:** A Proxy-kat általában szoftveres szinten (például csak a Google Chrome-ban, vagy csak egy torrent kliensben) kell beállítani. A gépeden futó többi program (a Spotify, a levelezőkliens, a háttérfrissítések) forgalma továbbra is a te saját IP-címeddel, védelem nélkül megy ki a netre.
-- **Lassú és megbízhatatlan:** Az ingyenes, nyilvános Proxy szerverek gyakran annyira túlterheltek, hogy a rajtuk keresztüli böngészés fájdalmasan lassú, és a kapcsolat percenként megszakadhat.
+- **Nincs titkosĂ­tĂˇs (Ez a legfontosabb!):** A Proxy *nem* titkosĂ­tja a forgalmadat. VisszatĂ©rve a hasonlathoz: a levĂ©l, amit a padtĂˇrsaddal kĂĽldtĂ©l, nincs lezĂˇrva. BĂˇrki, aki ĂştkĂ¶zben rĂˇnĂ©z (az internetszolgĂˇltatĂłd, a hacker a kĂˇvĂ©zĂłban, vagy maga a Proxy ĂĽzemeltetĹ‘je), tisztĂˇn el tudja olvasni, mit Ă­rtĂˇl bele.
+- **Csak egy adott alkalmazĂˇsra hat:** A Proxy-kat ĂˇltalĂˇban szoftveres szinten (pĂ©ldĂˇul csak a Google Chrome-ban, vagy csak egy torrent kliensben) kell beĂˇllĂ­tani. A gĂ©peden futĂł tĂ¶bbi program (a Spotify, a levelezĹ‘kliens, a hĂˇttĂ©rfrissĂ­tĂ©sek) forgalma tovĂˇbbra is a te sajĂˇt IP-cĂ­meddel, vĂ©delem nĂ©lkĂĽl megy ki a netre.
+- **LassĂş Ă©s megbĂ­zhatatlan:** Az ingyenes, nyilvĂˇnos Proxy szerverek gyakran annyira tĂşlterheltek, hogy a rajtuk keresztĂĽli bĂ¶ngĂ©szĂ©s fĂˇjdalmasan lassĂş, Ă©s a kapcsolat percenkĂ©nt megszakadhat.
 
-## A VPN: A "Titkosított Alagút"
+## A VPN: A "TitkosĂ­tott AlagĂşt"
 
-A Virtuális Magánhálózat (VPN) sokkal tovább megy, mint egy egyszerű közvetítő. Vegyük újra a levelezős példát: a VPN esetében mielőtt a levelet átadnád, beleteszed egy feltörhetetlen, vastag fémkazettába, amit senki sem tud kinyitni, majd egy páncélkocsival küldöd el a címzetthez.
+A VirtuĂˇlis MagĂˇnhĂˇlĂłzat (VPN) sokkal tovĂˇbb megy, mint egy egyszerĹ± kĂ¶zvetĂ­tĹ‘. VegyĂĽk Ăşjra a levelezĹ‘s pĂ©ldĂˇt: a VPN esetĂ©ben mielĹ‘tt a levelet ĂˇtadnĂˇd, beleteszed egy feltĂ¶rhetetlen, vastag fĂ©mkazettĂˇba, amit senki sem tud kinyitni, majd egy pĂˇncĂ©lkocsival kĂĽldĂ¶d el a cĂ­mzetthez.
 
-A VPN nemcsak az IP-címedet rejti el egy távoli szerver (a közvetítő) használatával, hanem a **teljes internetes forgalmadat is egy hadászati szintű (általában AES-256 bites) titkosítással látja el.**
+A VPN nemcsak az IP-cĂ­medet rejti el egy tĂˇvoli szerver (a kĂ¶zvetĂ­tĹ‘) hasznĂˇlatĂˇval, hanem a **teljes internetes forgalmadat is egy hadĂˇszati szintĹ± (ĂˇltalĂˇban AES-256 bites) titkosĂ­tĂˇssal lĂˇtja el.**
 
 ### Miben jobb a VPN?
-- **Rendszerszintű védelem:** Amint bekapcsolod a VPN alkalmazást a gépeden, az **minden** kilépő adatot elfog és titkosít. Legyen az a böngésződ, a játékod, a Skype hívásod vagy az operációs rendszered háttérfrissítése – minden az IP-cím maszkolás és a titkosított alagút védelme alatt áll.
-- **Valódi anonimitás és biztonság:** Mivel az adatcsomagok titkosítva vannak, az internetszolgáltatód nem látja, milyen oldalakat látogatsz, és a nyilvános kávézói Wi-Fi-n lévő hackerek sem tudják ellopni a bankkártya adataidat.
-- **Kikerüli az internetszolgáltatók (ISP) fojtását:** Mivel a szolgáltató "vak" a titkosítás miatt, nem tudja lelassítani a netedet, ha történetesen órákig streameled a Netflixet. 
+- **RendszerszintĹ± vĂ©delem:** Amint bekapcsolod a VPN alkalmazĂˇst a gĂ©peden, az **minden** kilĂ©pĹ‘ adatot elfog Ă©s titkosĂ­t. Legyen az a bĂ¶ngĂ©szĹ‘d, a jĂˇtĂ©kod, a Skype hĂ­vĂˇsod vagy az operĂˇciĂłs rendszered hĂˇttĂ©rfrissĂ­tĂ©se â€“ minden az IP-cĂ­m maszkolĂˇs Ă©s a titkosĂ­tott alagĂşt vĂ©delme alatt Ăˇll.
+- **ValĂłdi anonimitĂˇs Ă©s biztonsĂˇg:** Mivel az adatcsomagok titkosĂ­tva vannak, az internetszolgĂˇltatĂłd nem lĂˇtja, milyen oldalakat lĂˇtogatsz, Ă©s a nyilvĂˇnos kĂˇvĂ©zĂłi Wi-Fi-n lĂ©vĹ‘ hackerek sem tudjĂˇk ellopni a bankkĂˇrtya adataidat.
+- **KikerĂĽli az internetszolgĂˇltatĂłk (ISP) fojtĂˇsĂˇt:** Mivel a szolgĂˇltatĂł "vak" a titkosĂ­tĂˇs miatt, nem tudja lelassĂ­tani a netedet, ha tĂ¶rtĂ©netesen ĂłrĂˇkig streameled a Netflixet. 
 
-## A nagy összecsapás: Melyiket mikor használd?
+## A nagy Ă¶sszecsapĂˇs: Melyiket mikor hasznĂˇld?
 
-Most, hogy tudjuk a különbségeket, tegyük a dolgot a gyakorlatba!
+Most, hogy tudjuk a kĂĽlĂ¶nbsĂ©geket, tegyĂĽk a dolgot a gyakorlatba!
 
-### Mikor válaszd a Proxy-t?
-A Proxy-k (különösen a gyors, ideiglenes megoldások) kiválóak, ha **kizárólag kényelmi, és nem biztonsági** okokból van szükséged az IP-címed megváltoztatására.
-- Ha csak egy gyors YouTube videót akarsz megnézni, ami a hazádban le van tiltva.
-- Ha az iskolai vagy munkahelyi hálózaton le van tiltva a Facebook, és csak 5 percre fel akarsz nézni a böngésződből.
-- Webböngészési (Web Scraping) feladatokhoz, amikor egyszerre sok különböző IP-címről kell adatokat lekérni egy weboldalról (bár ehhez speciális fizetős Proxy-hálózatok kellenek).
+### Mikor vĂˇlaszd a Proxy-t?
+A Proxy-k (kĂĽlĂ¶nĂ¶sen a gyors, ideiglenes megoldĂˇsok) kivĂˇlĂłak, ha **kizĂˇrĂłlag kĂ©nyelmi, Ă©s nem biztonsĂˇgi** okokbĂłl van szĂĽksĂ©ged az IP-cĂ­med megvĂˇltoztatĂˇsĂˇra.
+- Ha csak egy gyors YouTube videĂłt akarsz megnĂ©zni, ami a hazĂˇdban le van tiltva.
+- Ha az iskolai vagy munkahelyi hĂˇlĂłzaton le van tiltva a Facebook, Ă©s csak 5 percre fel akarsz nĂ©zni a bĂ¶ngĂ©szĹ‘dbĹ‘l.
+- WebbĂ¶ngĂ©szĂ©si (Web Scraping) feladatokhoz, amikor egyszerre sok kĂĽlĂ¶nbĂ¶zĹ‘ IP-cĂ­mrĹ‘l kell adatokat lekĂ©rni egy weboldalrĂłl (bĂˇr ehhez speciĂˇlis fizetĹ‘s Proxy-hĂˇlĂłzatok kellenek).
 
-A Proxy ideális az "egyszeri, gyors trükkökhöz", amik nem tartalmaznak érzékeny személyes adatokat (mint jelszavak vagy bankkártya számok).
+A Proxy ideĂˇlis az "egyszeri, gyors trĂĽkkĂ¶khĂ¶z", amik nem tartalmaznak Ă©rzĂ©keny szemĂ©lyes adatokat (mint jelszavak vagy bankkĂˇrtya szĂˇmok).
 
-### Mikor válaszd KÖTELEZŐEN a VPN-t?
-Ha az online biztonság, a magánszféra védelme, vagy a folyamatosság a cél, a Proxy szóba sem jöhet. VPN-t kell használnod:
-- **Minden nyilvános Wi-Fi hálózaton:** Szállodában, reptéren, kávézóban kötelező a VPN bekapcsolása, különben tálcán kínálod a jelszavaidat a hackereknek.
-- **Bankolásnál és online vásárlásnál:** Csak a VPN titkosítása garantálja, hogy a pénzügyi adataidat ne lophassák el.
-- **Prémium streaminghez:** A Netflix, Hulu és társai a Proxy szervereket azonnal felismerik és blokkolják. Csak a prémium VPN-ek képesek folyamatosan, gyors sebességgel kijátszani a geoblokkolásokat.
-- **Torrent és fájlmegosztás esetén:** Ha a letöltés során el akarod rejteni az IP-címedet az internetszolgáltatód és a jogvédő ügynökségek elől, a VPN elengedhetetlen (ráadásul olyan VPN, amelyik Szigorú No-Log, azaz naplózásmentes irányelvet követ).
+### Mikor vĂˇlaszd KĂ–TELEZĹEN a VPN-t?
+Ha az online biztonsĂˇg, a magĂˇnszfĂ©ra vĂ©delme, vagy a folyamatossĂˇg a cĂ©l, a Proxy szĂłba sem jĂ¶het. VPN-t kell hasznĂˇlnod:
+- **Minden nyilvĂˇnos Wi-Fi hĂˇlĂłzaton:** SzĂˇllodĂˇban, reptĂ©ren, kĂˇvĂ©zĂłban kĂ¶telezĹ‘ a VPN bekapcsolĂˇsa, kĂĽlĂ¶nben tĂˇlcĂˇn kĂ­nĂˇlod a jelszavaidat a hackereknek.
+- **BankolĂˇsnĂˇl Ă©s online vĂˇsĂˇrlĂˇsnĂˇl:** Csak a VPN titkosĂ­tĂˇsa garantĂˇlja, hogy a pĂ©nzĂĽgyi adataidat ne lophassĂˇk el.
+- **PrĂ©mium streaminghez:** A Netflix, Hulu Ă©s tĂˇrsai a Proxy szervereket azonnal felismerik Ă©s blokkoljĂˇk. Csak a prĂ©mium VPN-ek kĂ©pesek folyamatosan, gyors sebessĂ©ggel kijĂˇtszani a geoblokkolĂˇsokat.
+- **Torrent Ă©s fĂˇjlmegosztĂˇs esetĂ©n:** Ha a letĂ¶ltĂ©s sorĂˇn el akarod rejteni az IP-cĂ­medet az internetszolgĂˇltatĂłd Ă©s a jogvĂ©dĹ‘ ĂĽgynĂ¶ksĂ©gek elĹ‘l, a VPN elengedhetetlen (rĂˇadĂˇsul olyan VPN, amelyik SzigorĂş No-Log, azaz naplĂłzĂˇsmentes irĂˇnyelvet kĂ¶vet).
 
-## Összegzés
+## Ă–sszegzĂ©s
 
-Összefoglalva a legegyszerűbben: **Minden VPN tartalmaz proxy funkciót (hiszen elrejti az IP-t), de a Proxy nem tartalmazza a VPN képességeit (a titkosítást).**
+Ă–sszefoglalva a legegyszerĹ±bben: **Minden VPN tartalmaz proxy funkciĂłt (hiszen elrejti az IP-t), de a Proxy nem tartalmazza a VPN kĂ©pessĂ©geit (a titkosĂ­tĂˇst).**
 
-Bár sokan azért próbálkoznak Proxykkal, mert azok gyakran ingyenesek, az igazság az, hogy az ingyenes Proxyszerverek üzemeltetői sok esetben kifejezetten kártékonyak (figyelik és eladják a forgalmadat, vagy hirdetésekkel bombáznak). Ha valóban aggódsz a digitális lábnyomod, az adataid biztonsága és az online szabadságod miatt, a VPN az egyetlen professzionális, megbízható és végleges megoldás a 21. században.
+BĂˇr sokan azĂ©rt prĂłbĂˇlkoznak Proxykkal, mert azok gyakran ingyenesek, az igazsĂˇg az, hogy az ingyenes Proxyszerverek ĂĽzemeltetĹ‘i sok esetben kifejezetten kĂˇrtĂ©konyak (figyelik Ă©s eladjĂˇk a forgalmadat, vagy hirdetĂ©sekkel bombĂˇznak). Ha valĂłban aggĂłdsz a digitĂˇlis lĂˇbnyomod, az adataid biztonsĂˇga Ă©s az online szabadsĂˇgod miatt, a VPN az egyetlen professzionĂˇlis, megbĂ­zhatĂł Ă©s vĂ©gleges megoldĂˇs a 21. szĂˇzadban.

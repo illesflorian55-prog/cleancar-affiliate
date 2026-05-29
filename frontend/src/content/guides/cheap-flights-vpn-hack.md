@@ -9,13 +9,13 @@ category: "Travel"
 
 # The Ultimate Travel Hack: Using a VPN to Beat Flight and Hotel Price Discrimination
 
-Have you ever experienced this? You’re planning a dream vacation. You search for flights to Tokyo, and you find a decent fare for $800. You don't book it immediately because you want to check with your partner first. 
+Have you ever experienced this? Youâ€™re planning a dream vacation. You search for flights to Tokyo, and you find a decent fare for $800. You don't book it immediately because you want to check with your partner first. 
 
 Two hours later, you go back to the exact same website, search for the exact same flight, on the exact same dates... and the price is suddenly $950. 
 
 You panic, assume the flight is selling out rapidly, and pull out your credit card to book before it hits $1,000. 
 
-You haven't been the victim of supply and demand. You’ve been played. You are experiencing "dynamic pricing" (or price discrimination)—a highly sophisticated algorithm designed by airlines and travel aggregators to squeeze every possible dollar out of you based on your digital footprint. 
+You haven't been the victim of supply and demand. Youâ€™ve been played. You are experiencing "dynamic pricing" (or price discrimination)â€”a highly sophisticated algorithm designed by airlines and travel aggregators to squeeze every possible dollar out of you based on your digital footprint. 
 
 But there is a cheat code. By using a Virtual Private Network (VPN) to mask your identity and change your digital location, you can level the playing field, trick the algorithms, and potentially save hundreds (or even thousands) of dollars on your next trip. Here is exactly how it works.
 
@@ -46,13 +46,13 @@ Here is the exact playbook for scoring massive discounts.
 
 ### Strategy 1: The "Lower-Income Country" Server
 This is the most reliable trick for international long-haul flights. 
-If you are flying from Los Angeles to Paris, do not search while connected to your home network. Turn on your VPN and connect to a server in a country with a lower cost of living—for example, Mexico, India, or Vietnam. 
+If you are flying from Los Angeles to Paris, do not search while connected to your home network. Turn on your VPN and connect to a server in a country with a lower cost of livingâ€”for example, Mexico, India, or Vietnam. 
 
 Then, open an "Incognito" or "Private Browsing" window (this ensures you have no tracking cookies) and search for the flight. The airline's algorithm sees a customer from a lower-income region and will frequently offer the ticket at a significantly lower tier to stimulate a sale. 
 
 ### Strategy 2: The "Point of Sale" Server
 If you are booking domestic travel within a foreign country, you almost always get penalized for being a tourist. 
-For example, if you are sitting in London trying to book a domestic hopper flight within Peru, the airline’s international site will charge you premium tourist rates. 
+For example, if you are sitting in London trying to book a domestic hopper flight within Peru, the airlineâ€™s international site will charge you premium tourist rates. 
 
 To bypass this, connect your VPN to a server in Peru. Then, navigate to the local Peruvian version of the airline's website (e.g., airline.com.pe). You will see the prices listed in the local currency, and they are often 30% to 50% cheaper than the international tourist rates. (Just make sure you use a credit card with no foreign transaction fees when you book!).
 

@@ -9,7 +9,7 @@ category: "Gaming"
 
 # Level Up Your Defenses: How a VPN Stops DDoS Attacks and Fixes Ping
 
-It’s the final round of a grueling ranked match. Your team is relying on you. You've got the perfect flank set up, your crosshairs are locked on the enemy, and you are milliseconds away from clutching the game. 
+Itâ€™s the final round of a grueling ranked match. Your team is relying on you. You've got the perfect flank set up, your crosshairs are locked on the enemy, and you are milliseconds away from clutching the game. 
 
 Suddenly, your character freezes. Your voice comms turn robotic. The dreaded "Connection Lost" icon flashes on your screen, and you are booted back to the main menu. 
 
@@ -25,7 +25,7 @@ Here is exactly why serious gamers are routing their traffic through VPNs, and h
 
 To understand how to stop a DDoS attack, you need to understand how the weapon is fired. 
 
-Every time you connect to the internet, your modem is assigned a public IP address. It’s like your home’s street address, telling the game server where to send the data packets so you can see what’s happening in the game. 
+Every time you connect to the internet, your modem is assigned a public IP address. Itâ€™s like your homeâ€™s street address, telling the game server where to send the data packets so you can see whatâ€™s happening in the game. 
 
 In peer-to-peer (P2P) games (and even in games with dedicated servers where voice chat is handled via P2P), it is terrifyingly easy for other players to see your public IP address using basic packet-sniffing software. 
 
@@ -55,7 +55,7 @@ The conventional wisdom in gaming is that any extra hop your data makes will inc
 
 However, in specific scenarios, a premium VPN can actually **reduce** your ping and fix packet loss. How? By fixing terrible routing. 
 
-When you send data to a game server, your Internet Service Provider (ISP) gets to choose the path that data takes. Often, ISPs will route your traffic through cheap, congested network hubs to save money, rather than taking the most direct route. It’s like being forced to take a gridlocked backroad instead of the empty highway. 
+When you send data to a game server, your Internet Service Provider (ISP) gets to choose the path that data takes. Often, ISPs will route your traffic through cheap, congested network hubs to save money, rather than taking the most direct route. Itâ€™s like being forced to take a gridlocked backroad instead of the empty highway. 
 
 If you connect to a VPN server located close to the game server, the VPN provider will often use optimized, premium routing networks. You are essentially bypassing your ISP's inefficient traffic jams and taking a direct, VIP digital highway straight to the game server. 
 

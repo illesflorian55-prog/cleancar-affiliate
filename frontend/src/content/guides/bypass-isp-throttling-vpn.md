@@ -9,7 +9,7 @@ category: "Performance"
 
 # The Speed Trap: How to Detect and Bypass ISP Throttling with a VPN
 
-It’s Friday night. You’ve ordered a pizza, kicked off your shoes, and sat down on the couch to stream a movie in glorious 4K resolution. You pay your Internet Service Provider (ISP) top dollar for a "Gigabit" connection, so this should be a flawless, cinematic experience. 
+Itâ€™s Friday night. Youâ€™ve ordered a pizza, kicked off your shoes, and sat down on the couch to stream a movie in glorious 4K resolution. You pay your Internet Service Provider (ISP) top dollar for a "Gigabit" connection, so this should be a flawless, cinematic experience. 
 
 But within five minutes, the quality drops to a pixelated blur. Then the video stops completely. You are staring at the spinning wheel of death: "Buffering..."
 
@@ -23,7 +23,7 @@ Your internet provider is actively examining what you are doing online and inten
 
 Throttling is the deliberate slowing down of an internet service by an ISP. They don't just slow down your entire connection randomly; they use sophisticated technology called Deep Packet Inspection (DPI) to look inside the data packets traveling to and from your home. 
 
-When DPI identifies "high-bandwidth" activities—like streaming video on Netflix or YouTube, downloading large files via BitTorrent, or playing heavy multiplayer games—the ISP flags that traffic and artificially limits its speed. 
+When DPI identifies "high-bandwidth" activitiesâ€”like streaming video on Netflix or YouTube, downloading large files via BitTorrent, or playing heavy multiplayer gamesâ€”the ISP flags that traffic and artificially limits its speed. 
 
 But why would they sabotage their own customers? It comes down to two main reasons:
 
@@ -43,7 +43,7 @@ Before you buy a solution, you need to prove the problem. Because ISPs are notor
 Connect your computer directly to your router via an Ethernet cable (if possible) for the most accurate reading. Go to a standard testing site like Speedtest.net and run a test. Record the download speed.
 
 **Step 2: The Specific Activity Test**
-Now, you need to test the speed of the specific service you think is being throttled (usually streaming). Google provides a dedicated tool for this called the "Google Video Quality Report," or you can use Netflix’s proprietary speed test at Fast.com. 
+Now, you need to test the speed of the specific service you think is being throttled (usually streaming). Google provides a dedicated tool for this called the "Google Video Quality Report," or you can use Netflixâ€™s proprietary speed test at Fast.com. 
 
 Fast.com is brilliant because the data is sent directly from Netflix's own servers. To your ISP, running a test on Fast.com looks exactly the same as streaming a Netflix movie. 
 
@@ -80,6 +80,6 @@ In fact, because encryption requires processing power, a VPN will usually decrea
 
 You wouldn't accept paying for a five-lane highway only to have the construction crew permanently block off four of the lanes for your daily commute. You shouldn't accept the digital equivalent from your Internet Service Provider. 
 
-If you are suffering from mysterious buffering, painfully slow downloads, or jittery gaming connections despite paying for premium tier internet, don't just complain to customer service—they will likely deny throttling is occurring. Take matters into your own hands. 
+If you are suffering from mysterious buffering, painfully slow downloads, or jittery gaming connections despite paying for premium tier internet, don't just complain to customer serviceâ€”they will likely deny throttling is occurring. Take matters into your own hands. 
 
 Wrap your traffic in a high-quality VPN, blindfold the network monitors, and finally get the speed you pay for.

@@ -28,7 +28,7 @@ They lay sophisticated traps to intercept your data:
 ### 1. The Rogue Hotspot (Evil Twin)
 This is the most common and devastating attack against travelers. A hacker sits in an airport lounge and sets up a fake Wi-Fi network named "Free_Airport_WiFi_5G". 
 
-You connect to it, assuming it’s legitimate. When you open your browser and navigate to `chase.com` or `bankofamerica.com`, the hacker intercepts that request. Instead of sending you to the real bank, they redirect your browser to a pixel-perfect replica of the bank's login page that they host on their own machine. 
+You connect to it, assuming itâ€™s legitimate. When you open your browser and navigate to `chase.com` or `bankofamerica.com`, the hacker intercepts that request. Instead of sending you to the real bank, they redirect your browser to a pixel-perfect replica of the bank's login page that they host on their own machine. 
 
 You type in your username and password. The fake site records them, sends them to the hacker, and then redirects you to the *real* banking site so you never suspect a thing. They now have full access to your accounts.
 
@@ -42,7 +42,7 @@ Don't assume that just because a hotel requires a room number and a password to 
 
 ## The Iron Vault: Why You Need a Banking VPN
 
-The fundamental problem with traveling is that you cannot trust the infrastructure you are using to connect to the internet. Since you can't secure the airport, the hotel, or the café, you must secure the data before it leaves your device. 
+The fundamental problem with traveling is that you cannot trust the infrastructure you are using to connect to the internet. Since you can't secure the airport, the hotel, or the cafĂ©, you must secure the data before it leaves your device. 
 
 This is where a Virtual Private Network (VPN) becomes a non-negotiable travel companion. 
 
@@ -58,9 +58,9 @@ When you fire up a premium VPN on your phone or laptop, it wraps all of your out
 
 There is another, less malicious, but highly frustrating reason to use a VPN for banking while traveling: avoiding automated fraud lockouts. 
 
-Banks employ aggressive security algorithms. If you usually log into your account from Chicago, and suddenly there is a login attempt from a random IP address in Bangkok, the bank’s security system will assume your account has been hacked. They will instantly freeze your account, decline your credit cards, and lock your login until you can verify your identity (which is incredibly difficult to do when you are stuck in a foreign country without cellular service). 
+Banks employ aggressive security algorithms. If you usually log into your account from Chicago, and suddenly there is a login attempt from a random IP address in Bangkok, the bankâ€™s security system will assume your account has been hacked. They will instantly freeze your account, decline your credit cards, and lock your login until you can verify your identity (which is incredibly difficult to do when you are stuck in a foreign country without cellular service). 
 
-By using a VPN, you can solve this problem entirely. Before you open your banking app in Bangkok, you connect your VPN to a server located in Chicago. The bank’s servers look at the incoming connection, see a familiar Chicago IP address, and let you right in without triggering any alarms.
+By using a VPN, you can solve this problem entirely. Before you open your banking app in Bangkok, you connect your VPN to a server located in Chicago. The bankâ€™s servers look at the incoming connection, see a familiar Chicago IP address, and let you right in without triggering any alarms.
 
 ## Golden Rules for Mobile Financial Security
 

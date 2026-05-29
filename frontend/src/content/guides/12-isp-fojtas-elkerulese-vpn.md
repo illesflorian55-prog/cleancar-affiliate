@@ -1,62 +1,62 @@
 ---
-title: "ISP fojtás (throttling) elkerülése VPN segítségével: Gyorsítsd fel a neted!"
-description: "Fizetsz a gigabites netért, de a YouTube mégis akadozik? Lehet, hogy az internetszolgáltatód szándékosan lassítja a kapcsolatodat! Tudd meg, hogyan cselezd ki őket egy VPN-nel."
+title: "ISP fojtĂˇs (throttling) elkerĂĽlĂ©se VPN segĂ­tsĂ©gĂ©vel: GyorsĂ­tsd fel a neted!"
+description: "Fizetsz a gigabites netĂ©rt, de a YouTube mĂ©gis akadozik? Lehet, hogy az internetszolgĂˇltatĂłd szĂˇndĂ©kosan lassĂ­tja a kapcsolatodat! Tudd meg, hogyan cselezd ki Ĺ‘ket egy VPN-nel."
 date: "2026-06-27"
 author: "The VPN Shield Team"
 image: "/images/12-isp-fojtas-elkerulese-vpn.png"
 category: "Gaming"
 ---
 
-# ISP fojtás (throttling) elkerülése VPN segítségével: Gyorsítsd fel a neted!
+# ISP fojtĂˇs (throttling) elkerĂĽlĂ©se VPN segĂ­tsĂ©gĂ©vel: GyorsĂ­tsd fel a neted!
 
-Biztosan te is érezted már azt az őrjítő frusztrációt: megveszed a legdrágább, "Gigabites" internetcsomagot, ami papíron fénysebességgel hasít. A sebességteszt (Speedtest) elindításakor a mutató ki is akad a maximumon. De amint este nyolckor leülsz, hogy megnézz egy 4K filmet a Netflixen, letölts egy hatalmas játékfrissítést a PlayStationön, vagy beállj egy P2P (torrent) letöltésbe, a rendszer elkezd "gondolkodni". A film pufferel, a letöltési sáv pedig úgy vánszorog, mintha még mindig 2005-öt írnánk.
+Biztosan te is Ă©rezted mĂˇr azt az Ĺ‘rjĂ­tĹ‘ frusztrĂˇciĂłt: megveszed a legdrĂˇgĂˇbb, "Gigabites" internetcsomagot, ami papĂ­ron fĂ©nysebessĂ©ggel hasĂ­t. A sebessĂ©gteszt (Speedtest) elindĂ­tĂˇsakor a mutatĂł ki is akad a maximumon. De amint este nyolckor leĂĽlsz, hogy megnĂ©zz egy 4K filmet a Netflixen, letĂ¶lts egy hatalmas jĂˇtĂ©kfrissĂ­tĂ©st a PlayStationĂ¶n, vagy beĂˇllj egy P2P (torrent) letĂ¶ltĂ©sbe, a rendszer elkezd "gondolkodni". A film pufferel, a letĂ¶ltĂ©si sĂˇv pedig Ăşgy vĂˇnszorog, mintha mĂ©g mindig 2005-Ă¶t Ă­rnĂˇnk.
 
-Mi történik ilyenkor? A routered a hibás? Esetleg a Netflix szerverei haltak le? A legtöbb esetben egyik sem. A háttérben valószínűleg egy sokkal sötétebb technikai gyakorlat áll: az **ISP Throttling**, azaz az internetszolgáltatók általi sávszélesség-fojtás. 
+Mi tĂ¶rtĂ©nik ilyenkor? A routered a hibĂˇs? Esetleg a Netflix szerverei haltak le? A legtĂ¶bb esetben egyik sem. A hĂˇttĂ©rben valĂłszĂ­nĹ±leg egy sokkal sĂ¶tĂ©tebb technikai gyakorlat Ăˇll: az **ISP Throttling**, azaz az internetszolgĂˇltatĂłk Ăˇltali sĂˇvszĂ©lessĂ©g-fojtĂˇs. 
 
-Lássuk, miért csinálják ezt a szolgáltatók (teljesen legálisan), hogyan tesztelheted le, és ami a legfontosabb: hogyan kényszerítheted ki a VPN segítségével azt a sebességet, amiért a hónap elején fizettél!
+LĂˇssuk, miĂ©rt csinĂˇljĂˇk ezt a szolgĂˇltatĂłk (teljesen legĂˇlisan), hogyan tesztelheted le, Ă©s ami a legfontosabb: hogyan kĂ©nyszerĂ­theted ki a VPN segĂ­tsĂ©gĂ©vel azt a sebessĂ©get, amiĂ©rt a hĂłnap elejĂ©n fizettĂ©l!
 
-## Mi az az ISP fojtás (Throttling) és miért létezik?
+## Mi az az ISP fojtĂˇs (Throttling) Ă©s miĂ©rt lĂ©tezik?
 
-Az internetszolgáltatók (ISP-k, mint a Telekom, a Vodafone vagy a helyi kábelszolgáltatók) hálózatai nem végtelen kapacitásúak. Képzeld el az internetet egy autópályaként. Napközben, amikor az emberek e-maileznek és híreket olvasnak, a forgalom gyér. De eljön az este, az "aranyóra", amikor mindenki hazaér, bekapcsolja az okostévét, elindítja a sorozatokat, és letölti a legújabb játékokat. Az autópálya hirtelen bedugul.
+Az internetszolgĂˇltatĂłk (ISP-k, mint a Telekom, a Vodafone vagy a helyi kĂˇbelszolgĂˇltatĂłk) hĂˇlĂłzatai nem vĂ©gtelen kapacitĂˇsĂşak. KĂ©pzeld el az internetet egy autĂłpĂˇlyakĂ©nt. NapkĂ¶zben, amikor az emberek e-maileznek Ă©s hĂ­reket olvasnak, a forgalom gyĂ©r. De eljĂ¶n az este, az "aranyĂłra", amikor mindenki hazaĂ©r, bekapcsolja az okostĂ©vĂ©t, elindĂ­tja a sorozatokat, Ă©s letĂ¶lti a legĂşjabb jĂˇtĂ©kokat. Az autĂłpĂˇlya hirtelen bedugul.
 
-Hogy elkerüljék a teljes hálózati összeomlást (és hogy ne kelljen új, drága kábeleket lefektetniük), a szolgáltatók egy trükkhöz folyamodnak. Forgalomszabályozó algoritmusokat ("Deep Packet Inspection") használnak, amik folyamatosan pásztázzák, hogy **mit** csinálsz az interneten.
+Hogy elkerĂĽljĂ©k a teljes hĂˇlĂłzati Ă¶sszeomlĂˇst (Ă©s hogy ne kelljen Ăşj, drĂˇga kĂˇbeleket lefektetniĂĽk), a szolgĂˇltatĂłk egy trĂĽkkhĂ¶z folyamodnak. ForgalomszabĂˇlyozĂł algoritmusokat ("Deep Packet Inspection") hasznĂˇlnak, amik folyamatosan pĂˇsztĂˇzzĂˇk, hogy **mit** csinĂˇlsz az interneten.
 
-Ha az algoritmus azt látja, hogy te éppen "adatfaló" tevékenységet végzel – például a Netflixről streamelsz, torrentet használsz, vagy a Twitch-en nézel videót –, akkor célzottan, csak neked (és a többi adatfalónak) lecsökkenti a maximális sávszélességedet. Ez a "fojtás". A te sávodat beszűkítik, hogy a szomszédod (aki csak egy sima hírportált olvas) zavartalanul netezhessen.
+Ha az algoritmus azt lĂˇtja, hogy te Ă©ppen "adatfalĂł" tevĂ©kenysĂ©get vĂ©gzel â€“ pĂ©ldĂˇul a NetflixrĹ‘l streamelsz, torrentet hasznĂˇlsz, vagy a Twitch-en nĂ©zel videĂłt â€“, akkor cĂ©lzottan, csak neked (Ă©s a tĂ¶bbi adatfalĂłnak) lecsĂ¶kkenti a maximĂˇlis sĂˇvszĂ©lessĂ©gedet. Ez a "fojtĂˇs". A te sĂˇvodat beszĹ±kĂ­tik, hogy a szomszĂ©dod (aki csak egy sima hĂ­rportĂˇlt olvas) zavartalanul netezhessen.
 
-### Teljesen "vakon" csinálják?
-Nem! A szolgáltató nem "általánosan" lassít be. Pontosan megkülönbözteti az adatcsomagokat. Tudja, hogy az a csomag, ami a te géped felé tart, a YouTube szervereiről jön-e, vagy egy P2P (torrent) hálózatból. Ha a Speedtest.net-re mész, az algoritmus okosan elengedi a féket, hogy a mérés alatt úgy tűnjön, minden a legnagyobb rendben van. De amint visszalépsz a filmhez, a fojtás újra aktiválódik.
+### Teljesen "vakon" csinĂˇljĂˇk?
+Nem! A szolgĂˇltatĂł nem "ĂˇltalĂˇnosan" lassĂ­t be. Pontosan megkĂĽlĂ¶nbĂ¶zteti az adatcsomagokat. Tudja, hogy az a csomag, ami a te gĂ©ped felĂ© tart, a YouTube szervereirĹ‘l jĂ¶n-e, vagy egy P2P (torrent) hĂˇlĂłzatbĂłl. Ha a Speedtest.net-re mĂ©sz, az algoritmus okosan elengedi a fĂ©ket, hogy a mĂ©rĂ©s alatt Ăşgy tĹ±njĂ¶n, minden a legnagyobb rendben van. De amint visszalĂ©psz a filmhez, a fojtĂˇs Ăşjra aktivĂˇlĂłdik.
 
-## Hogyan tudod tesztelni, hogy fojtják-e az internetedet?
+## Hogyan tudod tesztelni, hogy fojtjĂˇk-e az internetedet?
 
-Mielőtt VPN-t vennél, érdemes megbizonyosodni arról, hogy tényleg a szolgáltató húzta-e be a kéziféket. Ezt egy egyszerű teszttel kiderítheted:
+MielĹ‘tt VPN-t vennĂ©l, Ă©rdemes megbizonyosodni arrĂłl, hogy tĂ©nyleg a szolgĂˇltatĂł hĂşzta-e be a kĂ©zifĂ©ket. Ezt egy egyszerĹ± teszttel kiderĂ­theted:
 
-1. **A normál sebességteszt:** Menj fel a Fast.com oldalra (ezt a Netflix üzemelteti, így a szolgáltató videós streamként ismeri fel). Mérd le a sebességet, és írd fel az értéket.
-2. **A "vak" sebességteszt:** Tölts le egy megbízható VPN-t (vagy használd az ingyenes próbaidőszakot). Kapcsold be a VPN-t, és csatlakozz egy közeli, mondjuk budapesti vagy bécsi szerverre. Ezután fusd le újra a Fast.com tesztet.
+1. **A normĂˇl sebessĂ©gteszt:** Menj fel a Fast.com oldalra (ezt a Netflix ĂĽzemelteti, Ă­gy a szolgĂˇltatĂł videĂłs streamkĂ©nt ismeri fel). MĂ©rd le a sebessĂ©get, Ă©s Ă­rd fel az Ă©rtĂ©ket.
+2. **A "vak" sebessĂ©gteszt:** TĂ¶lts le egy megbĂ­zhatĂł VPN-t (vagy hasznĂˇld az ingyenes prĂłbaidĹ‘szakot). Kapcsold be a VPN-t, Ă©s csatlakozz egy kĂ¶zeli, mondjuk budapesti vagy bĂ©csi szerverre. EzutĂˇn fusd le Ăşjra a Fast.com tesztet.
 
-**Az eredmény elemzése:** Mivel a VPN alapból (a titkosítás miatt) *valamennyire* mindig lassítja az internetet, a második mérésnek normál esetben picit **rosszabbnak** kellene lennie. 
-Ha azonban a VPN bekapcsolása után a letöltési sebességed **ugrásszerűen megnő** (pl. 20 Mbit/s-ről felugrik 150 Mbit/s-re), akkor gratulálunk: egyértelműen bizonyítottad, hogy a szolgáltatód szándékosan fojtotta a videostreaminget, és a VPN sikeresen kijátszotta azt!
+**Az eredmĂ©ny elemzĂ©se:** Mivel a VPN alapbĂłl (a titkosĂ­tĂˇs miatt) *valamennyire* mindig lassĂ­tja az internetet, a mĂˇsodik mĂ©rĂ©snek normĂˇl esetben picit **rosszabbnak** kellene lennie. 
+Ha azonban a VPN bekapcsolĂˇsa utĂˇn a letĂ¶ltĂ©si sebessĂ©ged **ugrĂˇsszerĹ±en megnĹ‘** (pl. 20 Mbit/s-rĹ‘l felugrik 150 Mbit/s-re), akkor gratulĂˇlunk: egyĂ©rtelmĹ±en bizonyĂ­tottad, hogy a szolgĂˇltatĂłd szĂˇndĂ©kosan fojtotta a videostreaminget, Ă©s a VPN sikeresen kijĂˇtszotta azt!
 
-## A megoldás: A VPN, mint a digitális füstbomba
+## A megoldĂˇs: A VPN, mint a digitĂˇlis fĂĽstbomba
 
-Hogyan képes a VPN megállítani a szolgáltatót? Visszatérve a korábbi autópályás hasonlatunkhoz: a szolgáltatód az autópálya rendőrsége, aki az autók típusa alapján szűri a forgalmat (a "Netflix logós" furgonokat és a "Torrent logós" teherautókat félreállítja).
+Hogyan kĂ©pes a VPN megĂˇllĂ­tani a szolgĂˇltatĂłt? VisszatĂ©rve a korĂˇbbi autĂłpĂˇlyĂˇs hasonlatunkhoz: a szolgĂˇltatĂłd az autĂłpĂˇlya rendĹ‘rsĂ©ge, aki az autĂłk tĂ­pusa alapjĂˇn szĹ±ri a forgalmat (a "Netflix logĂłs" furgonokat Ă©s a "Torrent logĂłs" teherautĂłkat fĂ©lreĂˇllĂ­tja).
 
-Amikor bekapcsolod a Virtuális Magánhálózatot (VPN), az AES-256 bites titkosítás az összes adatcsomagodat álcázza. A szolgáltató (a rendőr) továbbra is látja, hogy jön egy autó, és látja, hogy az te vagy. De a VPN titkosítása miatt az autó ablaka teljesen sötétített, a logók pedig le vannak takarva. 
+Amikor bekapcsolod a VirtuĂˇlis MagĂˇnhĂˇlĂłzatot (VPN), az AES-256 bites titkosĂ­tĂˇs az Ă¶sszes adatcsomagodat ĂˇlcĂˇzza. A szolgĂˇltatĂł (a rendĹ‘r) tovĂˇbbra is lĂˇtja, hogy jĂ¶n egy autĂł, Ă©s lĂˇtja, hogy az te vagy. De a VPN titkosĂ­tĂˇsa miatt az autĂł ablaka teljesen sĂ¶tĂ©tĂ­tett, a logĂłk pedig le vannak takarva. 
 
-Az internetszolgáltató "Deep Packet Inspection" algoritmusa csak egy felismerhetetlen, titkosított adathalmazt lát. Nem tudja megállapítani, hogy az egy szöveges e-mail, egy HD minőségű Zoom-hívás, vagy egy torrent letöltés. 
+Az internetszolgĂˇltatĂł "Deep Packet Inspection" algoritmusa csak egy felismerhetetlen, titkosĂ­tott adathalmazt lĂˇt. Nem tudja megĂˇllapĂ­tani, hogy az egy szĂ¶veges e-mail, egy HD minĹ‘sĂ©gĹ± Zoom-hĂ­vĂˇs, vagy egy torrent letĂ¶ltĂ©s. 
 
-Mivel a szolgáltató nem tudja kategorizálni a forgalmadat, az algoritmusa nem tudja kiváltani a "fojtás" parancsot. Az adataid akadálytalanul, fojtás nélkül roboghatnak át a rendszeren a teljes sávszélességedet kihasználva!
+Mivel a szolgĂˇltatĂł nem tudja kategorizĂˇlni a forgalmadat, az algoritmusa nem tudja kivĂˇltani a "fojtĂˇs" parancsot. Az adataid akadĂˇlytalanul, fojtĂˇs nĂ©lkĂĽl roboghatnak Ăˇt a rendszeren a teljes sĂˇvszĂ©lessĂ©gedet kihasznĂˇlva!
 
-## Melyik VPN-t válaszd a fojtás elkerülésére?
+## Melyik VPN-t vĂˇlaszd a fojtĂˇs elkerĂĽlĂ©sĂ©re?
 
-A feladat látszólag egyszerű, de van egy csavar. Ha a szolgáltatód azért lassít, hogy spóroljon a hálózaton, neked egy olyan VPN-re van szükséged, aminek a szerverei elég erősek ahhoz, hogy bírják a gigabites forgalmat (különben cseberből vederbe esel, és a szolgáltató helyett maga a VPN fog lelassítani).
+A feladat lĂˇtszĂłlag egyszerĹ±, de van egy csavar. Ha a szolgĂˇltatĂłd azĂ©rt lassĂ­t, hogy spĂłroljon a hĂˇlĂłzaton, neked egy olyan VPN-re van szĂĽksĂ©ged, aminek a szerverei elĂ©g erĹ‘sek ahhoz, hogy bĂ­rjĂˇk a gigabites forgalmat (kĂĽlĂ¶nben cseberbĹ‘l vederbe esel, Ă©s a szolgĂˇltatĂł helyett maga a VPN fog lelassĂ­tani).
 
-Ezeket a szempontokat kövesd a választásnál:
-1. **Sebesség-optimalizált protokollok:** Keresd a **WireGuard** protokollt (vagy a NordVPN NordLynx, illetve az ExpressVPN Lightway megoldásait). Ezek az új generációs kódolások garantálják, hogy a titkosítás ne menjen a sebesség rovására.
-2. **Közeli szerverek:** Hogy a ping (válaszidő) alacsony maradjon, fontos, hogy a VPN-nek legyen szervere a te országodban, vagy egy szomszédos államban. Nem érdemes Amerikán keresztül streamelni a magyar Netflixet, mert a fizikai távolság miatt az sokat ront a minőségen.
-3. **Nincs adatkorlát:** Szigorúan kerüld az ingyenes VPN-eket. A legtöbb ingyenes szolgáltatás 2-5 GB adatforgalmat enged havonta, ami egy 4K film megnézésének is csak a felére elég, ráadásul ők maguk fogják a legdurvábban lefojtani a sebességedet az ingyenes szervereken.
+Ezeket a szempontokat kĂ¶vesd a vĂˇlasztĂˇsnĂˇl:
+1. **SebessĂ©g-optimalizĂˇlt protokollok:** Keresd a **WireGuard** protokollt (vagy a NordVPN NordLynx, illetve az CyberGhost VPN Lightway megoldĂˇsait). Ezek az Ăşj generĂˇciĂłs kĂłdolĂˇsok garantĂˇljĂˇk, hogy a titkosĂ­tĂˇs ne menjen a sebessĂ©g rovĂˇsĂˇra.
+2. **KĂ¶zeli szerverek:** Hogy a ping (vĂˇlaszidĹ‘) alacsony maradjon, fontos, hogy a VPN-nek legyen szervere a te orszĂˇgodban, vagy egy szomszĂ©dos Ăˇllamban. Nem Ă©rdemes AmerikĂˇn keresztĂĽl streamelni a magyar Netflixet, mert a fizikai tĂˇvolsĂˇg miatt az sokat ront a minĹ‘sĂ©gen.
+3. **Nincs adatkorlĂˇt:** SzigorĂşan kerĂĽld az ingyenes VPN-eket. A legtĂ¶bb ingyenes szolgĂˇltatĂˇs 2-5 GB adatforgalmat enged havonta, ami egy 4K film megnĂ©zĂ©sĂ©nek is csak a felĂ©re elĂ©g, rĂˇadĂˇsul Ĺ‘k maguk fogjĂˇk a legdurvĂˇbban lefojtani a sebessĂ©gedet az ingyenes szervereken.
 
-## Összegzés
+## Ă–sszegzĂ©s
 
-Fizetni a drága internetért, majd elviselni a lassú, pufferelő videókat és a napokig tartó letöltéseket nem csupán bosszantó, de rendkívül igazságtalan is a felhasználókkal szemben. A szolgáltatók ritkán vallják be nyíltan a fojtás (throttling) alkalmazását, de az egyértelműen jelen van a mindennapjainkban. 
+Fizetni a drĂˇga internetĂ©rt, majd elviselni a lassĂş, pufferelĹ‘ videĂłkat Ă©s a napokig tartĂł letĂ¶ltĂ©seket nem csupĂˇn bosszantĂł, de rendkĂ­vĂĽl igazsĂˇgtalan is a felhasznĂˇlĂłkkal szemben. A szolgĂˇltatĂłk ritkĂˇn valljĂˇk be nyĂ­ltan a fojtĂˇs (throttling) alkalmazĂˇsĂˇt, de az egyĂ©rtelmĹ±en jelen van a mindennapjainkban. 
 
-Egy prémium VPN beszerzése pontosan az az eszköz, amivel visszaveheted az irányítást (és a sebességet) a kezedbe. Ha legközelebb megakad a betöltést jelző karika a képernyő közepén, ne a routeredet indítsd újra! Kapcsold be a VPN-t, rejtőzz el a szolgáltatód algoritmusai elől, és élvezd a prémium internetélményt, ami megillet téged!
+Egy prĂ©mium VPN beszerzĂ©se pontosan az az eszkĂ¶z, amivel visszaveheted az irĂˇnyĂ­tĂˇst (Ă©s a sebessĂ©get) a kezedbe. Ha legkĂ¶zelebb megakad a betĂ¶ltĂ©st jelzĹ‘ karika a kĂ©pernyĹ‘ kĂ¶zepĂ©n, ne a routeredet indĂ­tsd Ăşjra! Kapcsold be a VPN-t, rejtĹ‘zz el a szolgĂˇltatĂłd algoritmusai elĹ‘l, Ă©s Ă©lvezd a prĂ©mium internetĂ©lmĂ©nyt, ami megillet tĂ©ged!
