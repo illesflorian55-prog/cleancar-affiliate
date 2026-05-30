@@ -50,7 +50,7 @@ export default async function ProductPage({ params }: PageProps) {
         </Link>
         
         <div className="grid md:grid-cols-2 gap-12 items-start">
-          <div className="bg-gray-50 dark:bg-gray-900 rounded-3xl p-8 sticky top-8 border border-gray-100 dark:border-gray-800">
+          <div className="bg-gray-50 dark:bg-gray-900 rounded-3xl p-8 relative md:sticky top-8 border border-gray-100 dark:border-gray-800">
             {product.rating && (
               <div className="absolute top-4 left-4 z-10 flex items-center gap-1.5 px-4 py-2 bg-indigo-500 text-white rounded-full font-bold text-sm shadow-lg shadow-indigo-500/30">
                 <Star className="w-4 h-4 fill-current" />

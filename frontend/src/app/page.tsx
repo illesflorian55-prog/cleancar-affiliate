@@ -1,7 +1,6 @@
 import { ProductCard } from '@/components/ProductCard';
 import { VPNMatchmaker } from '@/components/VPNMatchmaker';
 import { ComparisonMatrix } from '@/components/ComparisonMatrix';
-import { Navbar } from '@/components/Navbar';
 import currentData from '@/data/current_data.json';
 
 export default function Home() {
@@ -12,8 +11,6 @@ export default function Home() {
 
   return (
     <div className="min-h-screen font-sans">
-      <Navbar />
-
       <main id="vpn-list" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="mb-12 text-center md:text-left">
           <h2 className="text-4xl font-black text-gray-900 dark:text-white mb-4">
