@@ -3,7 +3,7 @@ title: "The Speed Trap: How to Detect and Bypass ISP Throttling with a VPN"
 description: "Paying for high-speed internet but still staring at a buffering wheel? Learn how Internet Service Providers artificially slow down your connection and how a VPN can restore your speeds."
 date: "2026-05-28"
 author: "The VPN Shield Team"
-image: "/images/isp-throttling-vpn.png"
+image: "/images/isp_throttle_vpn_1780164639621.png"
 category: "Performance"
 ---
 
