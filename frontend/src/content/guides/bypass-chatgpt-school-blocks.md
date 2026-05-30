@@ -3,7 +3,7 @@ title: "How to Bypass ChatGPT School and Workplace Blocks (2026 Guide)"
 description: "Is your school or office network blocking access to ChatGPT, Gemini, or other AI tools? Learn how to securely bypass local firewall restrictions and regain access using a VPN."
 date: "2026-05-28"
 author: "Marcus Vance"
-image: "/images/censorship-travel-vpn.png"
+image: "/images/chatgpt_vpn_1780164042375.png"
 category: "Security"
 ---
 
