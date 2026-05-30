@@ -41,7 +41,10 @@ export default function GuidesPage() {
                 />
               </div>
               <div className="p-6 flex-1 flex flex-col">
-                <p className="text-sm font-bold text-indigo-600 mb-2">{guide.category}</p>
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-sm font-bold text-indigo-600">{guide.category}</span>
+                  <span className="text-xs font-medium text-gray-500 dark:text-gray-400">{new Date(guide.date).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+                </div>
                 <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-indigo-600 transition-colors">
                   {guide.title}
                 </h2>
