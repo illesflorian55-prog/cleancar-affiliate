@@ -2,7 +2,9 @@
 title: "How to Bypass College & Dorm Wi-Fi Firewalls in 2026"
 description: "A highly technical, step-by-step guide to unblocking campus networks, bypassing DPI, and gaming on dorm Wi-Fi using obfuscation."
 image: "/images/dorm_firewall_2026.png"
-date: "2026-06-20"
+date: "2026-06-19"
+author: "The VPN Shield Team"
+category: "Security Guides"
 ---
 
 # How to Bypass College & Dorm Wi-Fi Firewalls in 2026 (Unblock Gaming & Streaming)
