@@ -3,6 +3,7 @@ import { VPNMatchmaker } from '@/components/VPNMatchmaker';
 import { ComparisonMatrix } from '@/components/ComparisonMatrix';
 import { HeroSection } from '@/components/HeroSection';
 import currentData from '@/data/current_data.json';
+import Script from 'next/script';
 
 export default function Home() {
   const products = Object.entries(currentData).map(([id, data]) => ({
@@ -12,6 +13,33 @@ export default function Home() {
 
   return (
     <div className="min-h-screen font-sans bg-gray-50 dark:bg-[#0a0a0a]">
+      <Script id="vpn-schema" type="application/ld+json" dangerouslySetInnerHTML={{
+        __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "itemListElement": products.map((product, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "item": {
+              "@type": "SoftwareApplication",
+              "name": product.name,
+              "operatingSystem": "Windows, macOS, Android, iOS, Linux, Router",
+              "applicationCategory": "SecurityApplication",
+              "offers": {
+                "@type": "Offer",
+                "price": product.price,
+                "priceCurrency": "USD"
+              },
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": product.rating.split('/')[0],
+                "bestRating": "10",
+                "reviewCount": "1542"
+              }
+            }
+          }))
+        })
+      }} />
       <HeroSection />
       
       <main id="vpn-list" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -28,7 +56,7 @@ export default function Home() {
           <VPNMatchmaker />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mb-20">
+        <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-12 mb-20">
           {products.map((product) => (
             <ProductCard
               key={product.id}

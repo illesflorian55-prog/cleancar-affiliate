@@ -24,31 +24,6 @@
       "24/7 customer support"
     ]
   },
-  "cyberghost": {
-    "name": "CyberGhost VPN",
-    "price": 2.19,
-    "url": "https://cyberghostvpn.com",
-    "image": "/images/cyberghost.png",
-    "shop": "Kape Technologies",
-    "rating": "9.3/10",
-    "description": "<p><strong>CyberGhost VPN</strong> is one of the most user-friendly options on the market, perfect for beginners looking for a cheap and reliable solution. It boasts an absolutely massive server network and dedicated profiles specifically optimized for streaming, gaming, and torrenting.</p><p>Its 'No-Spy' servers offer an extra layer of privacy, and the 45-day money-back guarantee is the longest in the industry. If you want a cost-effective, straightforward VPN, CyberGhost is a stellar choice.</p>",
-    "pros": [
-      "Huge network of over 9,000 servers globally",
-      "Specialized servers for streaming and gaming",
-      "Extremely affordable long-term plans",
-      "Generous 45-day money-back guarantee"
-    ],
-    "cons": [
-      "Can be slightly slower than NordVPN on distant servers",
-      "Advanced features are somewhat limited compared to rivals"
-    ],
-    "features": [
-      "Over 9000+ servers in 100 countries",
-      "Up to 7 simultaneous connections",
-      "45-day money-back guarantee",
-      "Specialized No-Spy servers"
-    ]
-  },
   "surfshark": {
     "name": "Surfshark VPN",
     "price": 2.19,

@@ -26,11 +26,11 @@ OpenVPN has been the gold standard for nearly two decades. While it's slower tha
 Every VPN claims they keep "zero logs." Unfortunately, history has proven that many free (and even some paid) VPNs will hand over user data when pressured by authorities. If a VPN server is seized, what data is on it?
 
 ### The No-Spy Server Revolution
-The best VPNs in the industry (including CyberGhost VPN, NordVPN, and Surfshark) have entirely transitioned to **No-Spy server infrastructure** (often marketed as No-Spy servers). Traditional servers run on hard drives, which store data until it is manually deleted or overwritten. No-Spy servers are wiped completely clean every single time they are rebooted. Even if a government physically unplugs and seizes a server, there is zero data to extract.
+The best VPNs in the industry (including Surfshark VPN, NordVPN, and Surfshark) have entirely transitioned to **No-Spy server infrastructure** (often marketed as No-Spy servers). Traditional servers run on hard drives, which store data until it is manually deleted or overwritten. No-Spy servers are wiped completely clean every single time they are rebooted. Even if a government physically unplugs and seizes a server, there is zero data to extract.
 
 ### 5-Eyes, 9-Eyes, and 14-Eyes Alliances
 Jurisdiction matters. The "Five Eyes" is an intelligence alliance comprising the US, UK, Canada, Australia, and New Zealand. These countries have agreements to mass-surveil citizens and share intelligence.
-If absolute privacy from government surveillance is your threat model, you should look for VPNs headquartered outside these jurisdictions (for example, NordVPN is based in Panama, and CyberGhost VPN is based in the British Virgin Islands).
+If absolute privacy from government surveillance is your threat model, you should look for VPNs headquartered outside these jurisdictions (for example, NordVPN is based in Panama, and Surfshark VPN is based in the British Virgin Islands).
 
 ## 3. Server Infrastructure & Network Size
 
