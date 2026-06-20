@@ -9,8 +9,6 @@ category: "Security Guides"
 
 # How to Bypass College & Dorm Wi-Fi Firewalls in 2026 (Unblock Gaming & Streaming)
 
-![A university student in a dorm room using Surfshark to bypass network restrictions in 2026.](/images/dorm_firewall_2026.png)
-
 Living in a college dorm is supposed to mean absolute freedom, but campus Wi-Fi networks tell a different story. If you've tried to launch *Valorant*, torrent a heavy file, or stream Netflix in 4K, you've likely hit a brick wall.
 
 University IT departments are notorious for implementing draconian network restrictions. But with the right technical setup, you can completely bypass these digital blockades.
